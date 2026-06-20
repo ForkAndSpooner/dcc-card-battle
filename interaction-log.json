@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": 1780708903182,
+    "cardId": "donut-player-0",
+    "cardName": "Princess Donut",
+    "playerMessage": "What strategy should I use to win?",
+    "gameState": {
+      "turn": 2,
+      "playerHP": 30,
+      "enemyHP": 30
+    },
+    "cardResponse": "Focus your pathetic gaze on my magnificent tiara while I devastate the enemy."
+  },
+  {
+    "timestamp": 1780709384591,
+    "cardId": "donut-enemy-0",
+    "cardName": "Princess Donut",
+    "playerMessage": "yeah well I'm going to beat you at this game",
+    "gameState": {
+      "turn": 2,
+      "playerHP": 30,
+      "enemyHP": 30
+    },
+    "cardResponse": "Delusional arrogance is the only thing you have managed to master, you pathetic human."
+  },
+  {
+    "timestamp": 1780709393981,
+    "cardId": "donut-enemy-0",
+    "cardName": "Princess Donut",
+    "playerMessage": "do you know you're a character in a card game",
+    "gameState": {
+      "turn": 2,
+      "playerHP": 30,
+      "enemyHP": 30
+    },
+    "cardResponse": "I am a celestial icon gracing this screen for the adoring masses, you imbecile!"
+  },
+  {
+    "timestamp": 1780710845649,
+    "cardId": "mongo-enemy-1",
+    "cardName": "Mongo",
+    "playerMessage": "who are you",
+    "gameState": {
+      "turn": 5,
+      "playerHP": 30,
+      "enemyHP": 30
+    },
+    "cardResponse": "Mongo is Mongo! Why you look like Mongo, other lizard friend?"
+  },
+  {
+    "timestamp": 1780710865230,
+    "cardId": "mongo-player-1",
+    "cardName": "Mongo",
+    "playerMessage": "attack",
+    "gameState": {
+      "turn": 5,
+      "playerHP": 30,
+      "enemyHP": 30
+    },
+    "cardResponse": "Mongo will bite the fake one! Is he a treat?"
+  }
+]
