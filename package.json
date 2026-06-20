@@ -1,0 +1,19 @@
+{
+  "name": "card-battle",
+  "version": "1.0.0",
+  "description": "Card battle game with AI personalities",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.6.0",
+    "express": "^5.1.0",
+    "ws": "^8.18.2"
+  }
+}
