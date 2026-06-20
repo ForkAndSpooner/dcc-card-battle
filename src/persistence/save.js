@@ -2,7 +2,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const SAVE_DIR = path.join(process.env.HOME || '/tmp', 'shared');
+// Use DATA_DIR env var (Railway volume) if set, else ~/shared (DevSpaces), else ./data
+const SAVE_DIR = process.env.DATA_DIR || (fs.existsSync(path.join(process.env.HOME || '/tmp', 'shared')) ? path.join(process.env.HOME, 'shared') : path.join(process.cwd(), 'data'));
 const SAVE_FILE = path.join(SAVE_DIR, 'dcc-save.json');
 
 const DEFAULT_SAVE = {
