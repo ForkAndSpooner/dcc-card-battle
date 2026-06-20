@@ -1,0 +1,771 @@
+[
+  {
+    "inputA": "Goblin Smoke Bomb",
+    "inputB": "Goblin Smoke Bomb",
+    "result": {
+      "name": "Goblin Choke-Haze Inhaler",
+      "rarity": "rare",
+      "slot": "consumable",
+      "description": "It turns out if you condense two Goblin Smoke Bombs into a single concentrated puff, you don't just blind your enemies; you give them a temporary, panicked existential crisis.",
+      "effects": [
+        {
+          "type": "confuse_all",
+          "params": {}
+        },
+        {
+          "type": "hidden",
+          "params": {
+            "turns": 2
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781032042807
+  },
+  {
+    "inputA": "Good Mana Potion",
+    "inputB": "Iron Skin Potion",
+    "result": {
+      "name": "Iron-Gut Ego-Booster",
+      "rarity": "epic",
+      "slot": "consumable",
+      "description": "It tastes like liquid lead and shattered dreams. Drink this, and your body becomes an impenetrable bunker while your brain starts thinking it’s the main character of a much better story.",
+      "effects": [
+        {
+          "type": "con_buff",
+          "params": {
+            "amount": 50,
+            "permanent": false
+          }
+        },
+        {
+          "type": "int_buff",
+          "params": {
+            "amount": 20,
+            "permanent": false
+          }
+        },
+        {
+          "type": "mana_restore",
+          "params": {
+            "amount": 25
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781051594709
+  },
+  {
+    "inputA": "Celestial Grenade",
+    "inputB": "Goblin Oil",
+    "result": {
+      "name": "Deity's Grease Fire",
+      "rarity": "epic",
+      "slot": "consumable",
+      "description": "It turns out the gods are highly flammable and really, really hate being lubricated without their consent.",
+      "effects": [
+        {
+          "type": "summon_god",
+          "params": {}
+        },
+        {
+          "type": "damage_all_enemies",
+          "params": {
+            "amount": 500
+          }
+        },
+        {
+          "type": "double_damage",
+          "params": {
+            "turns": 2
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781061624873
+  },
+  {
+    "inputA": "Goblin Oil",
+    "inputB": "Iron Skin Potion",
+    "result": {
+      "name": "Molten Golem’s Last Rites",
+      "rarity": "epic",
+      "slot": "consumable",
+      "description": "You’re basically a sentient, angry BBQ pit. Drink this and watch as your skin turns into literal magma armor that makes enemies wish they hadn't brought marshmallows.",
+      "effects": [
+        {
+          "type": "con_buff",
+          "params": {
+            "amount": 50,
+            "permanent": false
+          }
+        },
+        {
+          "type": "reflect_damage",
+          "params": {
+            "turns": 3
+          }
+        },
+        {
+          "type": "damage_reduction",
+          "params": {
+            "percent": 40,
+            "turns": 3
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781132497288
+  },
+  {
+    "inputA": "Good Mana Refill",
+    "inputB": "Scroll of Fix",
+    "result": {
+      "name": "The Architect's Xanax-Infused Energy Drink",
+      "rarity": "epic",
+      "slot": "consumable",
+      "description": "It tastes like liquid concrete and pure, unfiltered ambition. Fix your broken gear and your broken soul simultaneously before the walls cave in on your pathetic head.",
+      "effects": [
+        {
+          "type": "mana_restore",
+          "params": {
+            "amount": 500
+          }
+        },
+        {
+          "type": "cleanse_all",
+          "params": {}
+        },
+        {
+          "type": "damage_reduction",
+          "params": {
+            "percent": 50,
+            "turns": 3
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781133401070
+  },
+  {
+    "inputA": "Celestial Grenade",
+    "inputB": "Iron Skin Potion",
+    "result": {
+      "name": "Divine Meat-Shield Smoothie",
+      "rarity": "epic",
+      "slot": "consumable",
+      "description": "It tastes like liquid iron and judgment. Drinking this forces a deity to manifest specifically to act as your personal, highly annoyed bouncer for three turns.",
+      "effects": [
+        {
+          "type": "summon_god",
+          "params": {}
+        },
+        {
+          "type": "invincible",
+          "params": {
+            "turns": 3
+          }
+        },
+        {
+          "type": "con_buff",
+          "params": {
+            "amount": 50,
+            "permanent": false
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781136975481
+  },
+  {
+    "inputA": "Massive War Lance",
+    "inputB": "Scroll of Size Up",
+    "result": {
+      "name": "The Compensator’s Reach",
+      "rarity": "epic",
+      "slot": "weapon",
+      "description": "Size matters, especially when your spear is the size of a suburban zip code. The scroll didn't just grow the weapon; it grew the ego, and now reality is struggling to keep up with your inflated sense of self-importance.",
+      "effects": [
+        {
+          "type": "str_buff",
+          "params": {
+            "amount": 25,
+            "permanent": true
+          }
+        },
+        {
+          "type": "double_damage",
+          "params": {
+            "turns": 3
+          }
+        },
+        {
+          "type": "damage_single",
+          "params": {
+            "amount": 500
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781137756959
+  },
+  {
+    "inputA": "Celestial Grenade",
+    "inputB": "Meteor Hammer",
+    "result": {
+      "name": "Deity-on-a-Leash",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "description": "Why bother praying for divine intervention when you can just swing a celestial nuisance around by its ankles until it gets angry enough to vaporize your problems?",
+      "effects": [
+        {
+          "type": "summon_god",
+          "params": {}
+        },
+        {
+          "type": "damage_single",
+          "params": {
+            "amount": 5000
+          }
+        },
+        {
+          "type": "stun_all",
+          "params": {}
+        }
+      ]
+    },
+    "approvedAt": 1781222561500
+  },
+  {
+    "inputA": "Good Mana Refill",
+    "inputB": "Good Mana Refill",
+    "result": {
+      "name": "Liquid Crack-Pipe Mana Overdose",
+      "rarity": "rare",
+      "slot": "consumable",
+      "description": "You've combined two perfectly good potions into a volatile slurry that tastes like battery acid and regret. Your brain is melting, but you can feel the secrets of the universe—or maybe that's just a stroke.",
+      "effects": [
+        {
+          "type": "mana_restore",
+          "params": {
+            "amount": 200
+          }
+        },
+        {
+          "type": "int_buff",
+          "params": {
+            "amount": 15,
+            "permanent": false
+          }
+        },
+        {
+          "type": "confuse_all",
+          "params": {}
+        }
+      ]
+    },
+    "approvedAt": 1781314109926
+  },
+  {
+    "inputA": "Hobgoblin Disco Ball",
+    "inputB": "Celestial Grenade",
+    "result": {
+      "name": "The Deity’s Last Dance Floor",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "description": "When you absolutely must turn the floor into a religious experience where everyone dies to the beat. Warning: Don't look directly at the glitter.",
+      "effects": [
+        {
+          "type": "stun_all",
+          "params": {}
+        },
+        {
+          "type": "damage_all_enemies",
+          "params": {
+            "amount": 500
+          }
+        },
+        {
+          "type": "summon_god",
+          "params": {
+            "boon": "dance_fever"
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781324054337
+  },
+  {
+    "inputA": "Sheol Glass Reaper Case",
+    "inputB": "Blitz Stick",
+    "result": {
+      "name": "The Librarian's Glass Guillotine",
+      "rarity": "epic",
+      "slot": "consumable",
+      "description": "It’s a glass case containing a concentrated lightning bolt and a terrifying amount of academic rage. If you shatter it, you don't just get smarter—you get smarter until your brain explodes.",
+      "effects": [
+        {
+          "type": "int_buff",
+          "params": {
+            "amount": 25,
+            "permanent": false
+          }
+        },
+        {
+          "type": "damage_all_enemies",
+          "params": {
+            "amount": 500
+          }
+        },
+        {
+          "type": "extra_action",
+          "params": {}
+        }
+      ]
+    },
+    "approvedAt": 1781324081383
+  },
+  {
+    "inputA": "Slizzer (Stuffed Figure)",
+    "inputB": "Shrink Wand",
+    "result": {
+      "name": "Pocket-Sized Psychopath",
+      "rarity": "epic",
+      "slot": "consumable",
+      "description": "It's a slizzer doll that you've shrunk down to subatomic levels. When you squeeze it, it expands inside an enemy's bloodstream to turn their insides into a very messy, very frantic party.",
+      "effects": [
+        {
+          "type": "damage_single",
+          "params": {
+            "amount": 500
+          }
+        },
+        {
+          "type": "stun_strongest",
+          "params": {}
+        },
+        {
+          "type": "confuse_all",
+          "params": {}
+        }
+      ]
+    },
+    "approvedAt": 1781324188275
+  },
+  {
+    "inputA": "Rev-Up Moonshine Jug",
+    "inputB": "The Waffle Maker",
+    "result": {
+      "name": "The Flambéed Flapjack of Famine",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "description": "A golden-brown Belgian waffle soaked in high-octane moonshine. It tastes like a burning tire, but the sheer caloric density creates a battlefield-clearing explosion that leaves you feeling surprisingly sturdy.",
+      "effects": [
+        {
+          "type": "damage_all_enemies",
+          "params": {
+            "amount": 500
+          }
+        },
+        {
+          "type": "con_buff",
+          "params": {
+            "amount": 20,
+            "permanent": false
+          }
+        },
+        {
+          "type": "extra_action",
+          "params": {}
+        }
+      ]
+    },
+    "approvedAt": 1781324955662
+  },
+  {
+    "inputA": "Mana Toast",
+    "inputB": "Stuffed Grulke Infantry",
+    "result": {
+      "name": "Carb-Loaded Infantry Rations",
+      "rarity": "rare",
+      "slot": "consumable",
+      "description": "You've crunched the toast and stuffed the Grulke into your gullet. Now, your stomach is a literal military barracks fueled by carbs and spite.",
+      "effects": [
+        {
+          "type": "summon_temp",
+          "params": {
+            "count": 3
+          }
+        },
+        {
+          "type": "mana_restore",
+          "params": {
+            "amount": 50
+          }
+        },
+        {
+          "type": "int_buff",
+          "params": {
+            "amount": 10,
+            "permanent": false
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781353681138
+  },
+  {
+    "inputA": "Dolores Doesn't Splat",
+    "inputB": "Dolores Doesn't Splat Potion",
+    "result": {
+      "name": "Dolores's Terminal Velocity Enema",
+      "rarity": "rare",
+      "slot": "consumable",
+      "description": "It turns out Dolores didn't splat because she was filled with a highly pressurized, viscous, and frankly quite judgmental gelatin. Drink this, and you'll become a bouncing ball of holy vengeance that refuses to acknowledge the laws of physics or common sense.",
+      "effects": [
+        {
+          "type": "invincible",
+          "params": {
+            "turns": 2
+          }
+        },
+        {
+          "type": "damage_all_enemies",
+          "params": {
+            "amount": 500
+          }
+        },
+        {
+          "type": "reflect_damage",
+          "params": {
+            "turns": 3
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781353702084
+  },
+  {
+    "inputA": "Iron Skin Potion",
+    "inputB": "Good Mana Refill",
+    "result": {
+      "name": "Donut’s Ego-Infused Steroid Shake",
+      "rarity": "epic",
+      "slot": "consumable",
+      "description": "It tastes like glitter, iron filings, and pure, unadulterated entitlement. Your veins will pulse with the rhythmic beat of a thousand screaming fans, and your mana will feel as infinite as her shopping list.",
+      "effects": [
+        {
+          "type": "con_buff",
+          "params": {
+            "amount": 45,
+            "permanent": false
+          }
+        },
+        {
+          "type": "mana_restore",
+          "params": {
+            "amount": 200
+          }
+        },
+        {
+          "type": "extra_action",
+          "params": {}
+        }
+      ]
+    },
+    "approvedAt": 1781353722981
+  },
+  {
+    "inputA": "Donut’s Ego-Infused Steroid Shake",
+    "inputB": "Carb-Loaded Infantry Rations",
+    "result": {
+      "name": "Princess Donut’s 'Look at Me, I’m the General Now' Victory Smoothie",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "description": "A frothy, neon-pink sludge that smells like a burning military base and a boutique perfume counter. Drink this, and your muscles will demand a standing ovation while your stomach plans a tactical coup against your internal organs.",
+      "effects": [
+        {
+          "type": "team_str_buff",
+          "params": {
+            "amount": 25,
+            "permanent": false
+          }
+        },
+        {
+          "type": "extra_action",
+          "params": {}
+        },
+        {
+          "type": "intimidate",
+          "params": {}
+        }
+      ]
+    },
+    "approvedAt": 1781353799848
+  },
+  {
+    "inputA": "Stuffed Grulke Infantry",
+    "inputB": "Good Mana Refill",
+    "result": {
+      "name": "Grulke’s Last Stand Energy Drink",
+      "rarity": "rare",
+      "slot": "consumable",
+      "description": "It’s a sentient stuffed infantryman soaked in blue glowing goop. When you squeeze him, he screams in mana-infused agony, and then you explode into a whirlwind of violence.",
+      "effects": [
+        {
+          "type": "summon_temp",
+          "params": {}
+        },
+        {
+          "type": "mana_restore",
+          "params": {
+            "amount": 200
+          }
+        },
+        {
+          "type": "double_damage",
+          "params": {
+            "turns": 2
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781447702375
+  },
+  {
+    "inputA": "Vile Dill",
+    "inputB": "Dolores Doesn't Splat",
+    "result": {
+      "name": "Pickle of the Immortal Psychopath",
+      "rarity": "epic",
+      "slot": "consumable",
+      "description": "A brine-soaked gherkin that makes you feel so incredibly sane and invincible that you'll try to fight a god just to see if they bleed.",
+      "effects": [
+        {
+          "type": "invincible",
+          "params": {
+            "turns": 3
+          }
+        },
+        {
+          "type": "cleanse_all",
+          "params": {}
+        },
+        {
+          "type": "str_buff",
+          "params": {
+            "amount": 25,
+            "permanent": false
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781447803299
+  },
+  {
+    "inputA": "Carl's Jug O'Boom",
+    "inputB": "Pickle of the Immortal Psychopath",
+    "result": {
+      "name": "The Martyr's Vinegar Vengeance",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "description": "A jar of brine so potent it makes you feel like you could punch a hole in the universe—mostly because you're about to explode anyway. The pickle is gone, but the rage is eternal.",
+      "effects": [
+        {
+          "type": "damage_all_enemies",
+          "params": {
+            "amount": 2500
+          }
+        },
+        {
+          "type": "invincible",
+          "params": {
+            "turns": 2
+          }
+        },
+        {
+          "type": "double_damage",
+          "params": {
+            "turns": 2
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781447937802
+  },
+  {
+    "inputA": "Tome of Minion Army",
+    "inputB": "Enchanted Fang Caps of the Expectorating Tizheruk",
+    "result": {
+      "name": "The Rabid Legions’ Dentures of Eternal Spittle",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "description": "You've grafted golden, venomous fangs onto the souls of your minions. Now, when they bite, they don't just die—they pass on the plague. And yes, you can hear them all chattering at once in your nightmares.",
+      "effects": [
+        {
+          "type": "summon_god",
+          "params": {
+            "boon": "Tizheruk Venom-Lord"
+          }
+        },
+        {
+          "type": "steal_enemy",
+          "params": {}
+        },
+        {
+          "type": "confuse_all",
+          "params": {}
+        }
+      ]
+    },
+    "approvedAt": 1781448452900
+  },
+  {
+    "inputA": "Personal Space Upgrade Coupon",
+    "inputB": "No Disassemble",
+    "result": {
+      "name": "THE DON'T TOUCH ME! FORCEFIELD GENERATOR",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "description": "A coupon that demands personal space combined with a robot's desperate plea for structural integrity. Now, whenever someone tries to touch you, they suffer a catastrophic system failure. Back off, you sweaty weirdo.",
+      "effects": [
+        {
+          "type": "invincible",
+          "params": {
+            "turns": 2
+          }
+        },
+        {
+          "type": "damage_all_enemies",
+          "params": {
+            "amount": 500
+          }
+        },
+        {
+          "type": "stun_all",
+          "params": {}
+        }
+      ]
+    },
+    "approvedAt": 1781452860919
+  },
+  {
+    "inputA": "Madness Satchel Bomb",
+    "inputB": "Hobgoblin Dynamite",
+    "result": {
+      "name": "The Hobgoblin’s Psychotic Gender-Reveal Kit",
+      "rarity": "epic",
+      "slot": "consumable",
+      "description": "It turns out the gender is 'total organ failure'. This satchel is packed with enough unstable explosive goblin-grease to turn a localized area into a fireworks display of screaming, burning carnage. Don't worry, the confetti is made of bone fragments.",
+      "effects": [
+        {
+          "type": "damage_all_enemies",
+          "params": {
+            "amount": 500
+          }
+        },
+        {
+          "type": "confuse_all",
+          "params": {}
+        },
+        {
+          "type": "int_buff",
+          "params": {
+            "amount": 10,
+            "permanent": false
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781470486475
+  },
+  {
+    "inputA": "Hobgoblin Hob-Lobber",
+    "inputB": "Stuffed Eclipse Pyxie",
+    "result": {
+      "name": "Cluster-Bomb Pixie-Dust Grenade",
+      "rarity": "rare",
+      "slot": "consumable",
+      "description": "The hobgoblin forgot to take the stuffing out of the pixie before loading it into the launcher. Now it's not just an explosion; it's a sentient, stinging, magical catastrophe. Good luck cleaning the glitter out of your armor.",
+      "effects": [
+        {
+          "type": "damage_all_enemies",
+          "params": {
+            "amount": 150
+          }
+        },
+        {
+          "type": "confuse_all",
+          "params": {}
+        },
+        {
+          "type": "hidden",
+          "params": {
+            "turns": 2
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781526132757
+  },
+  {
+    "inputA": "Poker",
+    "inputB": "Graupel Scroll",
+    "result": {
+      "name": "The Frost-Bitten Proctologist's Wand",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "description": "A wrought-iron poker fused with an ancient ice scroll. It’s perfect for poking enemies in their weakest spots and freezing their internal organs until they shatter like cheap wine glasses.",
+      "effects": [
+        {
+          "type": "damage_all_enemies",
+          "params": {
+            "amount": 80
+          }
+        },
+        {
+          "type": "stun_all",
+          "params": {}
+        },
+        {
+          "type": "int_buff",
+          "params": {
+            "amount": 20,
+            "permanent": false
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781559741640
+  },
+  {
+    "inputA": "Pet Biscuit",
+    "inputB": "Hair of the Dog Potion",
+    "result": {
+      "name": "Hair of the Rabid Mongrel",
+      "rarity": "epic",
+      "slot": "consumable",
+      "description": "It turns out if you force a booze-soaked biscuit down a creature's throat, they don't just stop being hungover—they start seeing the world with the clarity of a blood-crazed predator.",
+      "effects": [
+        {
+          "type": "cleanse_all",
+          "params": {}
+        },
+        {
+          "type": "double_damage",
+          "params": {
+            "turns": 2
+          }
+        },
+        {
+          "type": "con_buff",
+          "params": {
+            "amount": 10,
+            "permanent": false
+          }
+        }
+      ]
+    },
+    "approvedAt": 1781559850383
+  }
+]
