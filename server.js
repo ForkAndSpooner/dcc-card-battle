@@ -56,7 +56,7 @@ app.get('/api/status-effects', (req, res) => { const { STATUS_EFFECTS } = requir
 app.post('/api/feedback', (req, res) => {
   try {
     const fs = require('fs'); const path = require('path');
-    const dir = path.join(process.env.HOME || '/tmp', 'shared', 'dcc-feedback');
+    const dir = path.join(process.env.DATA_DIR || path.join(process.env.HOME || '/tmp', 'shared'), 'dcc-feedback');
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
     const entry = {
       ts: new Date().toISOString(),
@@ -792,7 +792,7 @@ async function handleGameOver(s) {
     try {
       const fs = require('fs'); const path = require('path');
       const { generateText } = require('./src/api/gemini');
-      const dir = path.join(process.env.HOME || '/tmp', 'shared', 'dcc-insights');
+      const dir = path.join(process.env.DATA_DIR || path.join(process.env.HOME || '/tmp', 'shared'), 'dcc-insights');
       if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
       const matchSummary = {
         ts: new Date().toISOString(), floor: battle.floor, battleType: battle.battleType, winner: battle.winner,
