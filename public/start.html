@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DCC Card Battle — Version Select</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0a0a1a;font-family:system-ui,sans-serif;color:#fff}
+    .container{text-align:center;max-width:600px;padding:40px}
+    h1{font-size:2.5rem;margin-bottom:8px;background:linear-gradient(135deg,#ffcc00,#ff8800);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .subtitle{color:#888;margin-bottom:48px;font-size:1.1rem}
+    .versions{display:flex;gap:24px;justify-content:center;flex-wrap:wrap}
+    .version-card{background:#1a1a2e;border:2px solid #333;border-radius:16px;padding:32px 28px;width:240px;cursor:pointer;transition:all .2s;text-decoration:none;color:#fff}
+    .version-card:hover{border-color:#ffcc00;transform:translateY(-4px);box-shadow:0 8px 30px rgba(255,200,0,.15)}
+    .version-card h2{font-size:1.3rem;margin-bottom:8px}
+    .version-card p{color:#999;font-size:.85rem;line-height:1.5}
+    .badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:.7rem;font-weight:700;margin-bottom:12px;text-transform:uppercase;letter-spacing:1px}
+    .badge-stable{background:rgba(80,200,80,.15);color:#5d5;border:1px solid rgba(80,200,80,.3)}
+    .badge-exp{background:rgba(255,140,0,.15);color:#fa0;border:1px solid rgba(255,140,0,.3)}
+    .footer{margin-top:48px;color:#555;font-size:.75rem}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>⚔️ Dungeon Crawler Carl</h1>
+    <div class="subtitle">Card Battle Game — Select Version</div>
+    <div class="versions">
+      <a class="version-card" href="/stable/" id="stable-link">
+        <div class="badge badge-stable">✓ Stable</div>
+        <h2>Main</h2>
+        <p>Crafting Level 1, God Zone, 43 characters, polished UI. The "it works" version.</p>
+      </a>
+      <a class="version-card" href="/experimental/" id="exp-link">
+        <div class="badge badge-exp">⚡ Experimental</div>
+        <h2>UX Redesign</h2>
+        <p>Improved layout: separated buffs/inventory, Creative Action centered, collapsible feeds, first-turn guide, sponsor badge, rapport pulse.</p>
+      </a>
+    </div>
+    <div class="footer">Both versions share the same save data. Switch anytime. &nbsp;|&nbsp; <a href="/editor.html" style="color:#888">📊 Data Editor</a></div>
+  </div>
+</body>
+</html>
