@@ -1,0 +1,497 @@
+{
+  "bossTiers": [
+    {
+      "tier": "Neighborhood",
+      "stars": 1,
+      "hpMultiplier": 1.5,
+      "lootQuality": "uncommon"
+    },
+    {
+      "tier": "Borough",
+      "stars": 2,
+      "hpMultiplier": 2.5,
+      "lootQuality": "rare"
+    },
+    {
+      "tier": "City",
+      "stars": 3,
+      "hpMultiplier": 4,
+      "lootQuality": "epic"
+    },
+    {
+      "tier": "Floor",
+      "stars": 4,
+      "hpMultiplier": 6,
+      "lootQuality": "legendary"
+    }
+  ],
+  "bosses": [
+    {
+      "name": "Scolopendra",
+      "tier": "Floor",
+      "floor": 1,
+      "type": "creature",
+      "attack": 3,
+      "health": 5
+    },
+    {
+      "name": "Krakaren Clone",
+      "tier": "City",
+      "floor": 2,
+      "type": "creature",
+      "attack": 2,
+      "health": 4
+    },
+    {
+      "name": "Big Tina",
+      "tier": "Borough",
+      "floor": 1,
+      "type": "pet_ally",
+      "attack": 2,
+      "health": 3,
+      "note": "Becomes ally in the books"
+    },
+    {
+      "name": "Ferdinand",
+      "tier": "Neighborhood",
+      "floor": 2,
+      "type": "creature",
+      "attack": 1,
+      "health": 2
+    },
+    {
+      "name": "Denise",
+      "tier": "Borough",
+      "floor": 4,
+      "type": "creature",
+      "attack": 2,
+      "health": 4
+    },
+    {
+      "name": "Claude Sludgington the Fourth",
+      "tier": "City",
+      "floor": 3,
+      "type": "creature",
+      "attack": 2,
+      "health": 4
+    },
+    {
+      "name": "Grimaldi",
+      "tier": "Borough",
+      "floor": 2,
+      "type": "creature",
+      "attack": 2,
+      "health": 3
+    },
+    {
+      "name": "Gore-Gore",
+      "tier": "Neighborhood",
+      "floor": 1,
+      "type": "creature",
+      "attack": 1,
+      "health": 2
+    },
+    {
+      "name": "Heather the Bear",
+      "tier": "Neighborhood",
+      "floor": 3,
+      "type": "creature",
+      "attack": 2,
+      "health": 2
+    },
+    {
+      "name": "Imogen",
+      "tier": "City",
+      "floor": 4,
+      "type": "creature",
+      "attack": 3,
+      "health": 5
+    },
+    {
+      "name": "Juicer",
+      "tier": "Borough",
+      "floor": 3,
+      "type": "creature",
+      "attack": 2,
+      "health": 3
+    },
+    {
+      "name": "Ralph",
+      "tier": "Neighborhood",
+      "floor": 2,
+      "type": "creature",
+      "attack": 1,
+      "health": 2
+    },
+    {
+      "name": "Ruckus",
+      "tier": "Borough",
+      "floor": 4,
+      "type": "creature",
+      "attack": 2,
+      "health": 3
+    },
+    {
+      "name": "Rude-Dolph the Blood-Nosed Slay-Deer",
+      "tier": "City",
+      "floor": 3,
+      "type": "creature",
+      "attack": 2,
+      "health": 4
+    },
+    {
+      "name": "Pooka",
+      "tier": "Neighborhood",
+      "floor": 1,
+      "type": "creature",
+      "attack": 1,
+      "health": 1
+    },
+    {
+      "name": "Reminiscence Hydra of Malicious Compliance",
+      "tier": "Floor",
+      "floor": 5,
+      "type": "creature",
+      "attack": 3,
+      "health": 6
+    },
+    {
+      "name": "Ball of Swine",
+      "tier": "Neighborhood",
+      "floor": 3,
+      "type": "creature",
+      "attack": 1,
+      "health": 2
+    },
+    {
+      "name": "Feral Goose",
+      "tier": "Neighborhood",
+      "floor": 1,
+      "type": "creature",
+      "attack": 1,
+      "health": 1
+    },
+    {
+      "name": "Lusca",
+      "tier": "City",
+      "floor": 5,
+      "type": "creature",
+      "attack": 3,
+      "health": 5
+    },
+    {
+      "name": "Madre de Aguas",
+      "tier": "Floor",
+      "floor": 4,
+      "type": "creature",
+      "attack": 3,
+      "health": 6
+    }
+  ],
+  "mobs": [
+    {
+      "name": "Hellhound",
+      "floor": 1,
+      "attack": 1,
+      "health": 1,
+      "type": "beast"
+    },
+    {
+      "name": "Shrieker Bat",
+      "floor": 1,
+      "attack": 1,
+      "health": 1,
+      "type": "beast"
+    },
+    {
+      "name": "Goblin Warrior",
+      "floor": 1,
+      "attack": 1,
+      "health": 1,
+      "type": "humanoid"
+    },
+    {
+      "name": "Hobgoblin Soldier",
+      "floor": 2,
+      "attack": 1,
+      "health": 1,
+      "type": "humanoid"
+    },
+    {
+      "name": "Shade Gnoll",
+      "floor": 2,
+      "attack": 1,
+      "health": 1,
+      "type": "humanoid"
+    },
+    {
+      "name": "Bugbear",
+      "floor": 2,
+      "attack": 2,
+      "health": 2,
+      "type": "beast"
+    },
+    {
+      "name": "Feral Crawler",
+      "floor": 3,
+      "attack": 1,
+      "health": 1,
+      "type": "humanoid"
+    },
+    {
+      "name": "Vorpal",
+      "floor": 3,
+      "attack": 2,
+      "health": 1,
+      "type": "construct"
+    },
+    {
+      "name": "Odious Creeper",
+      "floor": 3,
+      "attack": 1,
+      "health": 2,
+      "type": "aberration"
+    },
+    {
+      "name": "Elite Guard",
+      "floor": 4,
+      "attack": 2,
+      "health": 2,
+      "type": "humanoid"
+    },
+    {
+      "name": "Prison Pocket",
+      "floor": 4,
+      "attack": 1,
+      "health": 3,
+      "type": "aberration"
+    },
+    {
+      "name": "Quetzalcoatlus",
+      "floor": 5,
+      "attack": 2,
+      "health": 2,
+      "type": "beast"
+    },
+    {
+      "name": "Dispenser",
+      "floor": 4,
+      "attack": 1,
+      "health": 3,
+      "type": "construct"
+    },
+    {
+      "name": "Dismember",
+      "floor": 5,
+      "attack": 3,
+      "health": 1,
+      "type": "construct"
+    },
+    {
+      "name": "Goblin",
+      "floor": 1,
+      "attack": 1,
+      "health": 1,
+      "type": "humanoid",
+      "swarm": true
+    },
+    {
+      "name": "Dungeon Rat",
+      "floor": 1,
+      "attack": 1,
+      "health": 1,
+      "type": "beast",
+      "swarm": true
+    },
+    {
+      "name": "Scatterer",
+      "floor": 1,
+      "attack": 1,
+      "health": 1,
+      "type": "bug",
+      "swarm": true
+    },
+    {
+      "name": "Green Slime",
+      "floor": 1,
+      "attack": 1,
+      "health": 2,
+      "type": "slime",
+      "swarm": true
+    },
+    {
+      "name": "Rot Sticker",
+      "floor": 1,
+      "attack": 2,
+      "health": 1,
+      "type": "bug",
+      "swarm": true,
+      "gimmick": "explode"
+    },
+    {
+      "name": "Bad Llama",
+      "floor": 1,
+      "attack": 2,
+      "health": 2,
+      "type": "beast",
+      "swarm": true,
+      "gimmick": "septic"
+    },
+    {
+      "name": "Brindle Grub",
+      "floor": 2,
+      "attack": 1,
+      "health": 1,
+      "type": "bug",
+      "swarm": true
+    },
+    {
+      "name": "Troglodyte Pygmy",
+      "floor": 2,
+      "attack": 1,
+      "health": 2,
+      "type": "humanoid",
+      "swarm": true,
+      "gimmick": "poison"
+    },
+    {
+      "name": "Troglodyte Basher",
+      "floor": 2,
+      "attack": 2,
+      "health": 3,
+      "type": "humanoid",
+      "swarm": true
+    },
+    {
+      "name": "Clurichaun Consultant",
+      "floor": 2,
+      "attack": 1,
+      "health": 1,
+      "type": "humanoid",
+      "swarm": true
+    },
+    {
+      "name": "Danger Dingo",
+      "floor": 2,
+      "attack": 3,
+      "health": 3,
+      "type": "beast",
+      "swarm": true
+    },
+    {
+      "name": "Kobold Rider",
+      "floor": 2,
+      "attack": 2,
+      "health": 2,
+      "type": "humanoid",
+      "swarm": true
+    },
+    {
+      "name": "Brain Boiler",
+      "floor": 2,
+      "attack": 2,
+      "health": 2,
+      "type": "aberration",
+      "swarm": true,
+      "gimmick": "psionic"
+    },
+    {
+      "name": "Street Urchin",
+      "floor": 3,
+      "attack": 2,
+      "health": 2,
+      "type": "construct",
+      "swarm": true
+    },
+    {
+      "name": "Shadow Leak",
+      "floor": 1,
+      "attack": 2,
+      "health": 2,
+      "type": "ghost",
+      "swarm": true
+    }
+  ],
+  "gods": [
+    {
+      "name": "Emberus",
+      "domain": "Sun and Ash",
+      "title": "The Sun God",
+      "boon": "fire_damage_buff",
+      "chaos": "random_fire_aoe",
+      "visual": "Massive humanoid of orange-red fire. Curved smoking horn on left side. Empty eye sockets trailing smoke and blood. Secondary screaming mouth on right cheek."
+    },
+    {
+      "name": "Grull",
+      "domain": "War",
+      "title": "The God of War",
+      "boon": "attack_buff_all",
+      "chaos": "random_friendly_fire",
+      "visual": "Four stories tall. Huge imposing terrifying figure with sneering orc face."
+    },
+    {
+      "name": "Eileithyia",
+      "domain": "Childbirth",
+      "title": "Goddess of Female Pain",
+      "boon": "heal_team",
+      "chaos": "random_debuff",
+      "visual": "Voluptuous olive-skinned woman with flowers in dark curly hair. White and gold robes. Four breasts, alien lower face with sharp teeth."
+    },
+    {
+      "name": "Ogun",
+      "domain": "Blacksmithery",
+      "title": "God of Armor",
+      "boon": "con_buff_all",
+      "chaos": "random_smite",
+      "visual": "Buff dark-skinned man with leather apron, giant war hammer, necklace of white teeth. Pure white glowing eyes, yellow body glow."
+    },
+    {
+      "name": "Eris",
+      "domain": "Chaos",
+      "title": "Goddess of Chaos",
+      "boon": "random_buff_permanent",
+      "chaos": "random_chaos_massive",
+      "visual": "Tall elf-like woman with long neck, serpentine features, blonde hair, forked tongue. Valkyrie armor under black-white striped jacket. Spiral lip tattoo."
+    },
+    {
+      "name": "Khepri",
+      "domain": "Rebirth",
+      "title": "God of Rebirth",
+      "boon": "revive_one",
+      "chaos": "bug_swarm",
+      "visual": "Short five-foot figure in golden-fringed Ascendency robes. Head is literally a bug body."
+    },
+    {
+      "name": "Yemaya",
+      "domain": "Rivers",
+      "title": "Goddess of Rivers",
+      "boon": "free_heals",
+      "chaos": "flood",
+      "visual": "Stunningly beautiful dark-skinned mermaid. Neck gills, pointed ears. Two scaled tails curve up forming a heart. Water flows from body."
+    },
+    {
+      "name": "Ysalte",
+      "domain": "Hopelessness",
+      "title": "The Vinegar Bitch",
+      "boon": "potion_power_boost",
+      "chaos": "all_potions_vinegar",
+      "visual": "Regular-sized young female dwarf with pickaxe. Helmet with sparking candle. Face flickers like bad TV static, mouth turns to silent scream."
+    },
+    {
+      "name": "Harpocrates",
+      "domain": "Silence",
+      "title": "God of Secrets",
+      "boon": "stealth_all",
+      "chaos": "mute_all",
+      "visual": "Unknown form. Associated with silence and hidden knowledge."
+    },
+    {
+      "name": "Hellik",
+      "domain": "Sun and Life",
+      "title": "God of Life",
+      "boon": "heal_team",
+      "chaos": "blinding_light",
+      "visual": "Looks normal and friendly, indistinguishable from regular NPC except for intense heat."
+    }
+  ]
+}
