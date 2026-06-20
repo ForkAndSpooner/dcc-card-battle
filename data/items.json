@@ -1,0 +1,326 @@
+{
+  "weapons": [
+    {
+      "name": "Enchanted Fang Caps of the Expectorating Tizheruk",
+      "type": "melee",
+      "rarity": "epic"
+    },
+    {
+      "name": "Left Fang of the Green Sultan",
+      "type": "melee",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Enchanted Repeating Crossbow of the Scavenger Mother",
+      "type": "ranged",
+      "rarity": "epic"
+    },
+    {
+      "name": "Enchanted Shade Gnoll Riot Forces Telescoping Crowd Control Baton",
+      "type": "melee",
+      "rarity": "rare"
+    },
+    {
+      "name": "Enchanted Shuriken of Bloodlust",
+      "type": "ranged",
+      "rarity": "rare"
+    },
+    {
+      "name": "Slingshot",
+      "type": "ranged",
+      "rarity": "common"
+    },
+    {
+      "name": "Spunky Jefferson the Enchanted Nickel Sock of the Elderly Miser",
+      "type": "melee",
+      "rarity": "epic"
+    },
+    {
+      "name": "Toad Cudgel",
+      "type": "melee",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Velma the Flamethrower",
+      "type": "ranged",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Enchanted War Gauntlet of the Exalted Grull",
+      "type": "melee",
+      "rarity": "epic"
+    },
+    {
+      "name": "Xistera",
+      "type": "melee",
+      "rarity": "rare"
+    },
+    {
+      "name": "Slizzer (Stuffed Figure)",
+      "type": "melee",
+      "rarity": "uncommon",
+      "slot": "consumable",
+      "summon": "slizzer"
+    }
+  ],
+  "explosives": [
+    {
+      "name": "Carl's Jug O'Boom",
+      "rarity": "legendary",
+      "effect": "massive_aoe"
+    },
+    {
+      "name": "Bugbear Paste",
+      "rarity": "common",
+      "effect": "small_aoe"
+    },
+    {
+      "name": "Carl's Doomsday Scenario",
+      "rarity": "legendary",
+      "effect": "nuke"
+    },
+    {
+      "name": "Celestial Grenade",
+      "rarity": "epic",
+      "effect": "divine_aoe"
+    },
+    {
+      "name": "Gnomish Knock-Knock",
+      "rarity": "uncommon",
+      "effect": "door_blast"
+    },
+    {
+      "name": "Goblin Dynamite",
+      "rarity": "common",
+      "effect": "medium_aoe"
+    },
+    {
+      "name": "Goblin Oil",
+      "rarity": "common",
+      "effect": "fire_dot"
+    },
+    {
+      "name": "Goblin Smoke Bomb",
+      "rarity": "common",
+      "effect": "blind"
+    },
+    {
+      "name": "Hobgoblin Detonator",
+      "rarity": "uncommon",
+      "effect": "remote_trigger"
+    },
+    {
+      "name": "Hobgoblin Disco Ball",
+      "rarity": "rare",
+      "effect": "stun_aoe"
+    },
+    {
+      "name": "Hobgoblin Dynamite",
+      "rarity": "uncommon",
+      "effect": "large_aoe"
+    },
+    {
+      "name": "Mother of All Bombs (MOAB)",
+      "rarity": "legendary",
+      "effect": "total_destruction"
+    },
+    {
+      "name": "Satchel Bomb",
+      "rarity": "uncommon",
+      "effect": "medium_aoe"
+    },
+    {
+      "name": "Spider Stalker",
+      "rarity": "rare",
+      "effect": "homing"
+    },
+    {
+      "name": "Waffle Maker",
+      "rarity": "rare",
+      "effect": "fire_aoe"
+    }
+  ],
+  "potions": [
+    {
+      "name": "Healing Potion",
+      "rarity": "common",
+      "effect": "heal_20"
+    },
+    {
+      "name": "Mana Potion",
+      "rarity": "common",
+      "effect": "restore_mana_3"
+    },
+    {
+      "name": "Good Mana Potion",
+      "rarity": "uncommon",
+      "effect": "restore_mana_5"
+    },
+    {
+      "name": "Iron Skin Potion",
+      "rarity": "uncommon",
+      "effect": "armor_buff"
+    },
+    {
+      "name": "Potion of Bloodlust",
+      "rarity": "rare",
+      "effect": "attack_buff"
+    },
+    {
+      "name": "Potion of Invisibility",
+      "rarity": "epic",
+      "effect": "stealth"
+    },
+    {
+      "name": "Size-Up Potion",
+      "rarity": "rare",
+      "effect": "stat_double"
+    },
+    {
+      "name": "Level-Up Potion",
+      "rarity": "legendary",
+      "effect": "instant_level"
+    },
+    {
+      "name": "Potion of Phase Through Wall",
+      "rarity": "epic",
+      "effect": "bypass"
+    },
+    {
+      "name": "Cosmic Buff Potion",
+      "rarity": "epic",
+      "effect": "all_stats_up"
+    },
+    {
+      "name": "Mordecai's Special Brew",
+      "rarity": "rare",
+      "effect": "random_buff"
+    },
+    {
+      "name": "Cheat Code Potion",
+      "rarity": "legendary",
+      "effect": "rule_break"
+    },
+    {
+      "name": "Dolores Doesn't Splat Potion",
+      "rarity": "uncommon",
+      "effect": "fall_immunity"
+    },
+    {
+      "name": "Hair of the Dog Potion",
+      "rarity": "common",
+      "effect": "cure_debuff"
+    },
+    {
+      "name": "Rapid Detox Potion",
+      "rarity": "uncommon",
+      "effect": "cure_poison"
+    },
+    {
+      "name": "Wisp Armor Flask",
+      "rarity": "epic",
+      "effect": "Shield 75 dmg + magic immunity 1 turn"
+    },
+    {
+      "name": "Graupel Scroll",
+      "rarity": "legendary",
+      "effect": "Massive ice storm — 60 damage to ALL enemies"
+    },
+    {
+      "name": "Laundry Day Spell",
+      "rarity": "epic",
+      "effect": "Strip all buffs and armor from enemies"
+    },
+    {
+      "name": "Cloud of Exhaust Canister",
+      "rarity": "rare",
+      "effect": "Stun all enemies for 1 turn"
+    },
+    {
+      "name": "Profane Iron Chain",
+      "rarity": "epic",
+      "effect": "Stun + 40 damage to all enemies"
+    },
+    {
+      "name": "Ink Marauder Scroll",
+      "rarity": "legendary",
+      "effect": "Summon living tattoo monsters to attack all enemies"
+    }
+  ],
+  "scrolls": [
+    {
+      "name": "Heal Scroll",
+      "rarity": "common",
+      "effect": "heal_3"
+    },
+    {
+      "name": "Scroll of Meat Hooks",
+      "rarity": "rare",
+      "effect": "pull_enemy"
+    },
+    {
+      "name": "Scroll of Upgrade",
+      "rarity": "epic",
+      "effect": "upgrade_item"
+    },
+    {
+      "name": "Eye in the Sky Scroll",
+      "rarity": "uncommon",
+      "effect": "reveal_all"
+    },
+    {
+      "name": "Scroll of Water Breathing",
+      "rarity": "uncommon",
+      "effect": "special"
+    },
+    {
+      "name": "Wand Recharge Scroll",
+      "rarity": "rare",
+      "effect": "recharge"
+    },
+    {
+      "name": "Cracker Jack",
+      "rarity": "rare",
+      "effect": "random_summon"
+    },
+    {
+      "name": "Community Pool",
+      "rarity": "uncommon",
+      "effect": "shared_heal"
+    },
+    {
+      "name": "Yog's Special Chain",
+      "rarity": "epic",
+      "effect": "bind_enemy"
+    }
+  ],
+  "lootBoxTypes": [
+    "Adventurer Box",
+    "Assassin's Box",
+    "Boss Box",
+    "Bounty Box",
+    "Brawler's Box",
+    "Crafter's Box",
+    "Deity's Box",
+    "Earth Box",
+    "Engineering Box",
+    "Explosives Box",
+    "Good Shit Box",
+    "Heavy Metal Box",
+    "Hunter Champion Box",
+    "Lucky Bastard Box",
+    "Magic Item Box",
+    "Melee Weapon Box",
+    "Pacifist's Box",
+    "Pet Box",
+    "Quest Box",
+    "Ranged Weapon Box",
+    "Savage Box",
+    "Survivor's Box",
+    "Weapon Box",
+    "Here's Some Good Shit Because You're Gonna Need It Box",
+    "Did You Really Just Cast Fireball in a Room this Small Box",
+    "Have You Goddamned Figured Out How To Use This In Conjunction With the Fucking Voodoo Book Yet? Jesus Christ I Can Only Help You So Much box",
+    "Who Let the Gods Out This Time? Box"
+  ]
+}
