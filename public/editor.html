@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DCC Data Editor</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:system-ui,sans-serif;background:#0a0a1a;color:#ddd;padding:20px}
+    h1{color:#ffd700;margin-bottom:16px}
+    .tabs{display:flex;gap:8px;margin-bottom:16px}
+    .tab{padding:8px 16px;border-radius:6px;cursor:pointer;background:#1a1a2e;border:1px solid #333;color:#aaa}
+    .tab.active{background:#ffd700;color:#000;font-weight:700}
+    .toolbar{display:flex;gap:8px;margin-bottom:12px;align-items:center}
+    .toolbar input{flex:1;padding:6px 10px;border-radius:6px;border:1px solid #333;background:#111;color:#ddd}
+    .toolbar button{padding:6px 14px;border-radius:6px;border:none;cursor:pointer;font-weight:600}
+    .save-btn{background:#4d4;color:#000}
+    .save-btn:hover{background:#5e5}
+    #table-container{overflow:auto;max-height:calc(100vh - 200px)}
+    table{border-collapse:collapse;min-width:100%;font-size:12px}
+    th{background:#1a1a2e;padding:8px 10px;text-align:left;border:1px solid #333;color:#ffd700;position:sticky;top:0;z-index:1}
+    td{padding:6px 8px;border:1px solid #222;vertical-align:top}
+    tr:nth-child(even){background:rgba(255,255,255,.03)}
+    tr:hover{background:rgba(255,215,0,.05)}
+    td[contenteditable]{outline:none;min-width:80px;max-width:300px}
+    td[contenteditable]:focus{background:rgba(255,215,0,.1);border-color:#ffd700}
+    .status{padding:8px;border-radius:6px;margin-bottom:8px;display:none}
+    .status.ok{background:rgba(80,220,80,.2);color:#5d5;display:block}
+    .status.err{background:rgba(255,80,80,.2);color:#f66;display:block}
+    .add-row-btn{margin-top:8px;padding:6px 14px;background:#333;border:1px solid #555;color:#aaa;border-radius:6px;cursor:pointer}
+  </style>
+</head>
+<body>
+  <h1>🎮 DCC Data Editor</h1>
+  <div class="tabs">
+    <div class="tab active" onclick="loadFile('items-master')">📦 Items</div>
+    <div class="tab" onclick="loadFile('mobs')">👹 Mobs</div>
+    <div class="tab" onclick="loadFile('recipes')">📜 Recipes</div>
+  </div>
+  <div id="status" class="status"></div>
+  <div class="toolbar">
+    <input id="search" type="text" placeholder="🔍 Filter rows..." oninput="filterRows(this.value)">
+    <button class="save-btn" onclick="saveFile()">💾 Save</button>
+    <button onclick="location.href='/'">← Back</button>
+  </div>
+  <div id="table-container"></div>
+
+  <script>
+    let currentFile = 'items-master';
+    let currentData = null;
+    let currentSection = null; // for nested files
+
+    async function loadFile(name) {
+      document.querySelectorAll('.tab').forEach((t,i) => t.classList.toggle('active', ['items-master','mobs','recipes'][i]===name));
+      currentFile = name;
+      const res = await fetch('/api/data/'+name);
+      currentData = await res.json();
+      renderData(currentData);
+    }
+
+    function renderData(data) {
+      const container = document.getElementById('table-container');
+      // For items-master, show section tabs
+      if (currentFile === 'items-master' && typeof data === 'object' && !Array.isArray(data)) {
+        const sections = Object.keys(data);
+        let html = '<div style="display:flex;gap:6px;margin-bottom:10px">';
+        sections.forEach(s => html += `<button onclick="renderSection('${s}')" style="padding:4px 10px;border-radius:4px;background:#222;border:1px solid #444;color:#ccc;cursor:pointer">${s}</button>`);
+        html += '</div><div id="section-table"></div>';
+        container.innerHTML = html;
+        renderSection(sections[0]);
+      } else {
+        renderArray(Array.isArray(data) ? data : [data], container);
+      }
+    }
+
+    function renderSection(section) {
+      currentSection = section;
+      const arr = currentData[section];
+      if (!Array.isArray(arr)) return;
+      renderArray(arr, document.getElementById('section-table') || document.getElementById('table-container'));
+    }
+
+    function renderArray(arr, container) {
+      if (!arr?.length) { container.innerHTML = '<p style="color:#666;padding:20px">No items</p>'; return; }
+      const cols = [...new Set(arr.flatMap(item => Object.keys(item)))].slice(0, 12);
+      let html = '<table><thead><tr>' + cols.map(c => `<th>${c}</th>`).join('') + '</tr></thead><tbody>';
+      arr.forEach((item, ri) => {
+        html += `<tr data-row="${ri}">`;
+        cols.forEach(col => {
+          const val = item[col];
+          const display = val === undefined ? '' : typeof val === 'object' ? JSON.stringify(val) : String(val);
+          html += `<td contenteditable="true" data-col="${col}" oninput="updateCell(this,${ri},'${col}')">${display}</td>`;
+        });
+        html += '</tr>';
+      });
+      html += '</tbody></table>';
+      html += '<button class="add-row-btn" onclick="addRow()">+ Add Row</button>';
+      container.innerHTML = html;
+    }
+
+    function updateCell(td, rowIndex, col) {
+      const arr = currentSection ? currentData[currentSection] : (Array.isArray(currentData) ? currentData : null);
+      if (!arr) return;
+      let val = td.textContent;
+      // Try to parse JSON for objects/arrays
+      try { if (val.startsWith('{') || val.startsWith('[')) val = JSON.parse(val); } catch(e) {}
+      // Try number
+      if (!isNaN(val) && val !== '') val = Number(val);
+      arr[rowIndex][col] = val;
+    }
+
+    function addRow() {
+      const arr = currentSection ? currentData[currentSection] : currentData;
+      if (Array.isArray(arr)) { arr.push({}); renderData(currentData); }
+    }
+
+    function filterRows(query) {
+      const q = query.toLowerCase();
+      document.querySelectorAll('tbody tr').forEach(tr => {
+        tr.style.display = tr.textContent.toLowerCase().includes(q) ? '' : 'none';
+      });
+    }
+
+    async function saveFile() {
+      const status = document.getElementById('status');
+      try {
+        const res = await fetch('/api/data/'+currentFile, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(currentData) });
+        const d = await res.json();
+        status.className = 'status ok'; status.textContent = '✅ Saved! (backup created as .bak)';
+      } catch(e) {
+        status.className = 'status err'; status.textContent = '❌ Save failed: ' + e.message;
+      }
+      setTimeout(() => status.style.display='none', 3000);
+    }
+
+    loadFile('items-master');
+  </script>
+</body>
+</html>
