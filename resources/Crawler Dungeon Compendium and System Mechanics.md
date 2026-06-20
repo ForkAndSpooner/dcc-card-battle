@@ -1,0 +1,56 @@
+**1\. Named Bosses and Signature Mechanics**Here is the canon list of major named bosses, their floors, and mechanics:
+
+* **The Hoarder (1st Floor Neighborhood Boss):** A giant garbage-troll who utilizes a **Choking Swarm** mechanic Chat History. She vomits out giant cockroach monsters called Scatterers; attacking the bugs while they are still in her mouth causes her to choke and take massive internal damage 191, Chat History.  
+* **Ball of Swine / Tuskling Knight & Courtesan (1st Floor Borough Boss):** A rolling boss that uses a **Rolling Battle Formation** 231, Chat History. It manifests as a massive, screaming ball of compressed tuskling flesh that rolls rapidly through a tight, labyrinthine arena Chat History.  
+* **The Krakaren Clone (2nd Floor Neighborhood Boss):** A tentacled monstrosity utilizing **Hydra's Reach** Chat History. The main body stays hidden while its tentacles smash blindly through walls from adjacent rooms; destroying one tentacle causes the boss to birth two more Chat History.  
+* **The Juicer (2nd Floor Neighborhood Boss):** A steroid-infused humanoid 1\. His mechanic involves targeting a highly-pressurized, specific blood vein in his neck to defeat him 2\.  
+* **Heather the Roller-Skating Bear (3rd Floor Neighborhood Boss):** A circus bear with worms for claws who uses a **Skating Charge** 34, Chat History. She uses the roller skates fused to her feet to unnaturally run down fleeing prey with momentum 56, Chat History.  
+* **Ringmaster Grimaldi / Pestiferous Vine (3rd Floor City Boss):** A towering plant monster utilizing **Parasitic Spores** 59, Chat History. It controls circus elites and mobs with vines and mind-control spores, forcing players to bypass the physical vines to attack its core directly Chat History.  
+* **The Mimic Rex (4th Floor City Boss):** A level-90 apex predator disguised as a railway administrative building 649, Chat History. It uses **Chomp & Split**, where chopping off a piece of its mass causes the severed part to grow centipede legs and scuttle back to heal the main body; over 50% of its mass must be severed simultaneously Chat History.  
+* **Gore-Gore the Mantaur (4th Floor Neighborhood Boss):** A berserker train engineer who actively drives the high-speed trains along the Ochre line 3, 4\.  
+* **Ruckus, the Chicken Hawk Sentinel (5th Floor Borough Boss):** A spring-operated, mechanical bird construct created by the bugbear Shamus Chaindrive 5\. It utilizes flight and an attached giant dwarfish buzzsaw 6\.  
+* **Lusca (5th Floor City Boss):** A colossal Sharktopus with a **Soft Vore** mechanic Chat History. She swallows opponents whole, forcing them to fight their way out of her massive stomach before being digested Chat History.  
+* **Ghazi the Mad Dune Mage (5th Floor Quadrant Boss):** Operates out of a sprawling sandcastle featuring a claustrophobic, shifting maze of electrified, translucent glass hallways Chat History.  
+* **Queen Imogen (6th Floor Country Boss):** A High Elf Cleric Sorceress who utilizes **Intangibility & Reflection** 513, Chat History. She is immune to magic, physical touch, and reflects fire; she only takes damage when hit by synchronized blunt-force attacks timed to the exact beat of the background music Chat History.  
+* **Odious Creepers (6th Floor City Bosses):** Plant-like abominations that act sluggish during the day 7\. At night, they gain the ability to combine with other Creepers to rapidly replicate, grow massive, and become terrifyingly fast 486, Chat History.  
+* **The Reminiscence Hydra of Malicious Compliance (8th Floor City Boss):** A grotesque hydra utilizing **Adaptive Head Regeneration** Chat History. Its nine heads manifest as human faces from a crawler's memories, each providing specific magical resistances; severed heads instantly re-inflate unless the stump is cauterized immediately Chat History.  
+* **Shi Maria / The Bedlam Bride (8th Floor City Boss / Demi-God):** A Reaper Spider Minion wielding **Permanent Bedlam & Cockroach** 741, Chat History. She inflicts Permanent Insanity and Permanent Blindness on victims, and possesses the "Cockroach" skill which heals her and provides a shield upon suffering a fatal blow Chat History.  
+* **The Blood Sultanate (9th Floor Boss):** Involves a **Royal Line of Succession** mechanic 8\. If a crawler equips the Crown of the Sepsis Whore, they are inserted into the royal family line and cannot leave the 9th floor until the Sultan and all other members of the royal family are slain 178, Chat History.
+
+**2\. Loot Box Rarity Tiers and Contents**The System distributes rewards primarily through a structured box tier system Chat History. The standard tiers, in ascending order of rarity and value, are: **Bronze, Silver, Gold, Platinum, Legendary, and Celestial** 9\.
+
+* **Bronze, Silver, and Gold Boxes:** These commonly drop standard adventurer supplies such as torches, basic healing and mana potions, unenchanted weapons, crawler biscuits, and basic crafting materials 168, 169, Chat History.  
+* **Platinum and Legendary Boxes:** These contain highly valuable, game-changing items 10\. Typical contents include powerful enchanted armor and weapons, advanced crafting fabricators, unique artifacts, and high-level spell tomes 171, 684, Chat History.  
+* **Celestial Boxes:** The absolute highest tier, containing unparalleled, game-breaking artifacts (like the Cloak of the Benevolent Champion) that can render an underperforming crawler nearly immortal 11, 12\. These are heavily restricted and taxed by the Syndicate to prevent crawlers from progressing too easily 11\.  
+* **Specialty Boxes:** The loot system uses thematic variations based on achievements Chat History. **Boss Boxes** drop persistent loot and powerful gear tailored to the encounter 194, Chat History. **Benefactor Boxes** bypass the standard loot pool entirely, offering non-dungeon, out-of-world technology directly from a sponsor's home planet 13\. **Fan Boxes** contain items voted on by viewers, ranging from incredibly useful gear to mean-spirited troll items 95, Chat History. **Asshole/Savage Boxes** reward brutal or player-killing behavior 205, Chat History, and **Spicy Boxes** reward foot-fetish actions triggered by the System AI's distinct proclivities Chat History.
+
+**3\. Crawler Stat System**Every adult human starts with an average base score of 3 to 5 in each category 14\. Crawlers receive three stat points upon leveling up, which they can distribute manually once they select a class 14\.
+
+* **Strength:** Dictates physical power, enhancing bare-knuckle damage and melee skills 15, 16\. If a crawler's strength is too low, they cannot properly utilize heavy hand-to-hand combat 16\.  
+* **Dexterity:** Governs agility, movement, dodging, and evasive skills 17, 18\.  
+* **Constitution:** This is a highly critical stat that dictates a crawler's maximum health pool and natural health regeneration speed 19, 20\. Crucially, it governs how frequently a crawler can consume potions; a low Constitution causes severe "Potion Sickness" or prevents rapid potion chaining 221, Chat History.  
+* **Intelligence:** Determines a crawler's maximum mana points (typically scaling at a 1-to-1 ratio early on) and the effectiveness and duration of magical spells 21, 22\. For instance, higher Intelligence vastly extends the duration of crowd-control spells like Confusing Fog 23\. Crawlers must have an Intelligence of at least 2 to unlock the inventory and training menus 24\.  
+* **Charisma:** Governs social interactions and economic advantages 25, 26\. High Charisma grants massive price discounts at NPC shops, increases the sale value of items, and allows a crawler to charm, manipulate, or mentally control non-hostile NPCs and mobs 25-28.
+
+**4\. Achievements and System Notifications**
+
+* **Mechanics:** Achievements act as the primary trigger for dispensing loot boxes 29\. The first three floors are designed to drown crawlers in rapid-fire achievements for simple tasks (like opening doors or entering without pants) to supply them with beginner skills and basic survival gear 29-31. After the third floor, achievements become significantly harder to earn 29\.  
+* **Tone:** The "You've unlocked..." notifications are delivered directly to the crawler's mind and interface 32\. They are characterized by a highly sarcastic, sadistic, pop-culture-heavy, and darkly humorous voice written by the showrunners (and later driven by the increasingly unhinged AI) to entertain the galactic audience 30, 33-36.
+
+**5\. Major Sponsors/Patrons and Perks**Patrons are almost exclusively interstellar organizations and corporations rather than individuals 9\. They bid credits for the rights to sponsor crawlers 37\. Bids above the standard fee grant the sponsor discounts on purchasing loot boxes for the crawler, incentivizing them to send better gear 37\.
+
+* **The Valtay Corporation:** Sponsored Carl. They bypass typical dungeon fantasy items to provide high-tech wetware, such as Neural Enhancers (pills) that install HUD upgrades like altimeters or Subspace Portal identifiers 613, 845, Chat History.  
+* **The Apothecary:** The Krakaren collective that sponsored several top crawlers (Donut, Katia, Prepotente) 38, 39\. They grant highly potent alchemical items, such as the exceptionally rare "Cosmic Buff" potions 40\.  
+* **The Open Intellect Pacifist Action Network:** Sponsored Carl and Theia 491, Chat History.  
+* **Jaxbrin Amusements:** Sponsored Bautista. They provided him with replenishable, collectible stuffed plushies that perform real monster summonings when their tags are pulled 41, 42\.  
+* **Dictum Waystation Controls:** Sponsored Everly. They provided navigation items, such as Gordon's Compass, which ironically led her straight into a corporate advertisement trap 43, 44\.
+
+**6\. In-Dungeon Currency and Shop System**
+
+* **Gold Coins:** The primary in-dungeon currency 22\. Mobs begin dropping gold on the second floor 22\.  
+* **General Stores:** Scattered randomly through the dungeon and run by NPCs (like skyfowl) 25\. They act like convenience stores: they buy almost anything, but their baseline prices are exceptionally high 45\.  
+* **Safe Room Vending:** Basic saferooms feature vending machines that dispense "Hoop Cola," water, "Warka" (dungeon beer), and "Mana Toast" (a burnt triangle of bread that exclusively refills mana) 185, Chat History.  
+* **The Desperado Club:** An elite, multi-level sanctuary accessible via a magical tattoo pass 46\. It features class-specific training guilds, specialized weapons brokers, a pharmacy (selling the hallucinogenic drug "Blitz Sticks"), strip clubs (Bitches and Penis Parade), and a Casino 83, 597, Chat History. The Casino features Earth-based games and a Wheel of Fortune that costs 10,000 gold per spin, offering rewards ranging from Legendary boxes to instant death 47, 48\.  
+* **The Marketplace Interface:** Acquired via personal space upgrades, this acts as a virtual, eBay-style auction house opening on the sixth floor 49, 50\. It allows crawlers to bypass NPC shops to sell magical gear directly to out-world tourist factions for massive sums of gold 51, 52\.
+
+*(Note: I have strictly relied on the provided canon texts and established chat history to compile this information, ensuring no fan-speculation is included.)*  
