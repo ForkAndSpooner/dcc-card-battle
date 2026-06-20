@@ -1,0 +1,53 @@
+◇ injected env (4) from ../.env // tip: ⌘ suppress logs { quiet: true }
+38 talkers to generate voices for. Already have: 27
+  Skip Carl (already: UgSsCwET7S1qi6UqJkK4)
+  Skip Princess Donut (already: uttCqsKUBGGaXO9086gH)
+  Skip Mordecai (already: Nyi6OkijMOtXXZhFsEFl)
+  Skip Katia (already: PGwLWgZGCO9itSN1XMGz)
+  Skip Imani Stout (already: axHTLU8k8wUZctAGDPcb)
+  Skip Hekla (already: 85j18di4QXwz2Ekdbr7g)
+  Skip Prepotente (already: uTuT3imN4J8rO8cVMrDn)
+  Skip Bautista (already: 3pZpOG4veLnFwNCx5Mo2)
+  Skip Louis (already: c1oyiwdRpczLU7IG26Fp)
+  Skip Florin (already: oZsKez5n4cSXDpZqvA51)
+  Skip Signet (already: jDUh1DFoUhkI7Vn4RXMk)
+  Skip Miriam (already: ErvDCH3keFOKsRrWjMBf)
+  Skip Langley (already: jupPEVhZz9MIkdx0TQs3)
+  Skip Yolanda (already: 2jCSc91F5P1HY3IWAp3D)
+  Skip Odette (already: e98RYqiapJjIO63edKW8)
+  Generating: Lucia Mar...
+    ✗ Lucia Mar: Preview 403: {"detail":{"type":"authorization_error","code":"forbidden","message":"Sorry, this prompt potentially doesn't follow our safety guidelines and therefore has been blocked.","status":"blocked_generation"
+  Skip Borant Exec (already: V77P0aEdmzjPl16NvmaA)
+  Skip The Maestro (already: uq7GbL1vA80PlgzdsJhm)
+  Generating: Carl?...
+    ✗ Carl?: Preview 403: {"detail":{"type":"authorization_error","code":"forbidden","message":"Sorry, this prompt potentially doesn't follow our safety guidelines and therefore has been blocked.","status":"blocked_generation"
+  Skip Donut? (already: sdpQvx2jZnGZ6pWXwxoq)
+  Skip Donut, Maximum Chonk (already: 7mJNws8eiLu277cQFzCW)
+  Skip Zev (already: OPzS8CIcB18Gjx0XDEj0)
+  Generating: Gravy Boat...
+    ✓ Gravy Boat: MPh0FfC9Cg8oAeiZAwLW
+  Skip Esther (already: FEEOPWGIsceuJhJDEVXe)
+  Skip Fenwick (already: 7WkfyCNJc63Hm6pZU4P4)
+  Skip Vex (already: Felt3Mjc0GSXbsXXjVoX)
+  Skip Silas Quinn (already: 8zbw4lAEqW0lkYtxzveo)
+  Skip The Warden (already: HdsD0JdM0W356z0oNdyl)
+  Skip Echo (already: 1AgOCVOafcOx5a3rx81Q)
+  Generating: Samantha...
+    ✗ Samantha: Preview 422: {"detail":[{"type":"string_too_short","loc":["body","text"],"msg":"String should have at least 100 characters","input":"Stay behind me. I have got this covered. Nobody touches my team while I am stand
+  Generating: Elle McGibbons...
+    ✓ Elle McGibbons: yCbxhnUJ7rx6nOZ0lLvy
+  Generating: Britney...
+    ✓ Britney: bCm9i1MfBIYU0alNpKcM
+  Generating: Li Jun...
+    ✗ Li Jun: Preview 422: {"detail":[{"type":"string_too_short","loc":["body","text"],"msg":"String should have at least 100 characters","input":"Patience. The opening will come. And when it does, I will not hesitate.","ctx":{
+  Generating: Li Na...
+    ✗ Li Na: Preview 422: {"detail":[{"type":"string_too_short","loc":["body","text"],"msg":"String should have at least 100 characters","input":"Hold still, I have you. Breathe. The wound is not as bad as it looks. You will f
+  Generating: Maxim & Dimitri Popov...
+    ✗ Maxim & Dimitri Popov: Preview 422: {"detail":[{"type":"string_too_short","loc":["body","text"],"msg":"String should have at least 100 characters","input":"Maxim: We go left. Dimitri: No we go right. Maxim: Fine, we split the difference
+  Generating: Miriam Dom...
+    ✗ Miriam Dom: Preview 422: {"detail":[{"type":"string_too_short","loc":["body","text"],"msg":"String should have at least 100 characters","input":"Sit down, drink water. No arguments. I have stitched up worse than you in worse 
+  Generating: Chris Andrews...
+    ✗ Chris Andrews: Preview 422: {"detail":[{"type":"string_too_short","loc":["body","text"],"msg":"String should have at least 100 characters","input":"Three targets. Wind is still. I will take the one on the left first. Two seconds
+  Generating: Tran...
+    ✗ Tran: Preview 422: {"detail":[{"type":"string_too_short","loc":["body","text"],"msg":"String should have at least 100 characters","input":"You did not see me arrive and you will not see me leave. The enemy will see even
+Done. Voice map: /home/levinebl/.workspace/card-battle/data/voice-map.json
