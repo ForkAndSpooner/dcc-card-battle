@@ -1,0 +1,1425 @@
+{
+  "weapons": [
+    {
+      "id": "war_gauntlet",
+      "name": "Enchanted War Gauntlet of the Exalted Grull",
+      "rarity": "gold",
+      "slot": "weapon",
+      "stats": {
+        "str": 2,
+        "dex": 5
+      },
+      "procs": [
+        {
+          "trigger": "on_hit",
+          "chance": 0.02,
+          "effect": "stun"
+        }
+      ],
+      "exclusive_to": "carl",
+      "lore": "Charcoal bracer that transforms into a spiked gauntlet when a fist is held for 2 seconds."
+    },
+    {
+      "id": "xistera_scoop",
+      "name": "Xistera Scoop",
+      "rarity": "platinum",
+      "slot": "weapon",
+      "stats": {
+        "dex": 10
+      },
+      "procs": [
+        {
+          "trigger": "on_use_item",
+          "chance": 1,
+          "effect": "range_boost"
+        }
+      ],
+      "exclusive_to": "carl",
+      "lore": "Banana-shaped wicker basket for launching explosives with incredible accuracy."
+    },
+    {
+      "id": "nekhebit_crossbow",
+      "name": "Nekhebit's Crossbow",
+      "rarity": "celestial",
+      "slot": "weapon",
+      "stats": {
+        "dex": 2,
+        "str": 10
+      },
+      "procs": [
+        {
+          "trigger": "on_hit",
+          "chance": 0.25,
+          "effect": "bonus_per_female"
+        }
+      ],
+      "exclusive_to": "hekla",
+      "lore": "Golden automatic crossbow. +25% damage per female in party."
+    },
+    {
+      "id": "jug_o_boom",
+      "name": "Carl's Jug O' Boom",
+      "rarity": "epic",
+      "slot": "consumable",
+      "effect": "fire_aoe",
+      "damage": 40,
+      "splash": 25,
+      "lore": "Custom incendiary: jug + goblin oil + torch = thermobaric splash."
+    },
+    {
+      "id": "spunky_jefferson",
+      "name": "Spunky Jefferson",
+      "rarity": "legendary",
+      "slot": "weapon",
+      "stats": {
+        "dex": 4
+      },
+      "procs": [
+        {
+          "trigger": "on_kill",
+          "chance": 1,
+          "effect": "damage_stack",
+          "value": 1.5
+        },
+        {
+          "trigger": "on_hit",
+          "chance": 0.05,
+          "effect": "bonked"
+        },
+        {
+          "trigger": "on_kill",
+          "chance": 0.2,
+          "effect": "gold_burst"
+        }
+      ],
+      "sapient": true,
+      "lore": "Crusty blood-splattered tube sock filled with nickels. It talks."
+    },
+    {
+      "id": "doomsday_scenario",
+      "name": "Carl's Doomsday Scenario",
+      "rarity": "celestial",
+      "slot": "consumable",
+      "effect": "nuke_all",
+      "damage": 90,
+      "lore": "Overloaded soul crystal in a glass case. Detonates on removal from inventory."
+    },
+    {
+      "id": "hob_lobber",
+      "name": "Hobgoblin Hob-Lobber",
+      "rarity": "common",
+      "slot": "consumable",
+      "effect": "single_bomb",
+      "damage": 20,
+      "lore": "Dense round bombs slightly smaller than a baseball. Fused for stability."
+    },
+    {
+      "id": "fang_caps",
+      "name": "Enchanted Fang Caps of the Expectorating Tizheruk",
+      "rarity": "platinum",
+      "slot": "accessory",
+      "stats": {
+        "str": 3
+      },
+      "procs": [
+        {
+          "trigger": "on_hit",
+          "chance": 0.25,
+          "effect": "poison",
+          "level": 5
+        },
+        {
+          "trigger": "on_hit",
+          "chance": 0.1,
+          "effect": "paralyze",
+          "level": 5
+        }
+      ],
+      "exclusive_to": "mongo",
+      "lore": "Golden fang caps. +50% bite damage, chance to poison/paralyze."
+    },
+    {
+      "id": "dirty_phased_bolt",
+      "name": "Dirty Little Phased Bolt",
+      "rarity": "epic",
+      "slot": "consumable",
+      "effect": "assassinate",
+      "lore": "Invisible bolt. Drains target to 10% HP without awarding a kill skull."
+    },
+    {
+      "id": "bolt_ophiotaurus",
+      "name": "Bolt of Ophiotaurus",
+      "rarity": "celestial",
+      "slot": "consumable",
+      "effect": "god_piercer",
+      "lore": "Pauses deity invulnerability for 15 seconds if shot into their eye."
+    },
+    {
+      "id": "velma_flamethrower",
+      "name": "Velma the Flamethrower",
+      "rarity": "epic",
+      "slot": "weapon",
+      "stats": {
+        "str": 3
+      },
+      "procs": [
+        {
+          "trigger": "on_hit",
+          "chance": 0.3,
+          "effect": "burn",
+          "duration": 3
+        }
+      ],
+      "lore": "Heavy flamethrower worn as backpack. Extra lethal vs vampires with Ultraviolet."
+    },
+    {
+      "id": "waffle_maker_bomb",
+      "name": "The Waffle Maker",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "effect": "fire_aoe",
+      "damage": 50,
+      "lore": "Thermos-sized thermobaric. Incinerates 100m radius."
+    },
+    {
+      "id": "no_disassemble",
+      "name": "No Disassemble",
+      "rarity": "epic",
+      "slot": "consumable",
+      "effect": "emp",
+      "lore": "Square EMP bomb. Disables shields and tech."
+    },
+    {
+      "id": "auto_shotgun",
+      "name": "Magical Automatic Shotgun",
+      "rarity": "legendary",
+      "slot": "weapon",
+      "stats": {
+        "dex": 3,
+        "str": 2
+      },
+      "procs": [
+        {
+          "trigger": "on_hit",
+          "chance": 0.15,
+          "effect": "multi_hit"
+        }
+      ],
+      "exclusive_to": "florin",
+      "lore": "Modified Mossberg with infinite ammo. Might be sapient."
+    },
+    {
+      "id": "leech_staff",
+      "name": "Ifechi's Leech Staff",
+      "rarity": "rare",
+      "slot": "weapon",
+      "stats": {
+        "int": 2
+      },
+      "procs": [
+        {
+          "trigger": "on_hit",
+          "chance": 0.3,
+          "effect": "lifesteal",
+          "value": 20
+        }
+      ],
+      "lore": "Summons leeches that drain enemies. Eat leeches for STR buff."
+    },
+    {
+      "id": "meteor_hammer",
+      "name": "Meteor Hammer",
+      "rarity": "epic",
+      "slot": "weapon",
+      "stats": {
+        "str": 3
+      },
+      "procs": [
+        {
+          "trigger": "on_hit",
+          "chance": 0.1,
+          "effect": "stun"
+        }
+      ],
+      "lore": "Flaming ball on chain. Bone-crushing force."
+    },
+    {
+      "id": "crowd_control_baton",
+      "name": "Shade Gnoll Riot Baton",
+      "rarity": "gold",
+      "slot": "weapon",
+      "stats": {
+        "str": 10
+      },
+      "procs": [
+        {
+          "trigger": "on_hit_group",
+          "chance": 1,
+          "effect": "knockback",
+          "cd": 5
+        }
+      ],
+      "lore": "Telescoping baton 25cm to 3m. Auto-casts Knockback vs 10+ mobs."
+    },
+    {
+      "id": "left_fang",
+      "name": "Left Fang of the Green Sultan",
+      "rarity": "epic",
+      "slot": "weapon",
+      "stats": {
+        "str": 2
+      },
+      "set": "green_sultan",
+      "lore": "Glowing green venomous saber. Full power only when paired with Right Fang."
+    },
+    {
+      "id": "shuriken_bloodlust",
+      "name": "Enchanted Shuriken of Bloodlust",
+      "rarity": "epic",
+      "slot": "consumable",
+      "effect": "stacking_damage",
+      "stack_per_hit": 8,
+      "lore": "Cheap-looking stars. +8% damage per hit on same mob type."
+    },
+    {
+      "id": "wand_nighty_night",
+      "name": "Wand of Nighty-Night",
+      "rarity": "rare",
+      "slot": "consumable",
+      "charges": 10,
+      "effect": "sleep",
+      "lore": "Gnarled wand. L10 Sleep on non-boss for 5 min."
+    },
+    {
+      "id": "toad_cudgel",
+      "name": "Toad Cudgel",
+      "rarity": "common",
+      "slot": "weapon",
+      "stats": {
+        "str": 3
+      },
+      "lore": "Big stick for bonking. Does minimal damage."
+    },
+    {
+      "id": "poker",
+      "name": "Poker",
+      "rarity": "common",
+      "slot": "weapon",
+      "stats": {
+        "str": 2
+      },
+      "lore": "Wrought-iron fireplace poker. Bends easily."
+    },
+    {
+      "id": "war_lance",
+      "name": "Massive War Lance",
+      "rarity": "rare",
+      "slot": "weapon",
+      "stats": {
+        "str": 4
+      },
+      "requires_mount": true,
+      "lore": "Enormously long glowing spear. Immense reach when mounted."
+    },
+    {
+      "id": "boomerang_bowler",
+      "name": "Boomerang Bowler Hat",
+      "rarity": "epic",
+      "slot": "weapon",
+      "stats": {
+        "dex": 2
+      },
+      "procs": [
+        {
+          "trigger": "on_hit",
+          "chance": 0.3,
+          "effect": "multi_hit"
+        }
+      ],
+      "lore": "Thrown to decapitate enemies, boomerangs back to user."
+    },
+    {
+      "id": "rock_chucker",
+      "name": "Venomous Elven Rock Chucker",
+      "rarity": "epic",
+      "slot": "weapon",
+      "stats": {
+        "str": 3
+      },
+      "procs": [
+        {
+          "trigger": "on_hit",
+          "chance": 0.25,
+          "effect": "poison"
+        }
+      ],
+      "lore": "Mini trebuchet. Lobs 300lb rocks. Potion cup adds AoE elements."
+    },
+    {
+      "id": "disco_ball",
+      "name": "Hobgoblin Disco Ball",
+      "rarity": "rare",
+      "slot": "consumable",
+      "effect": "stun_all",
+      "lore": "Rainbow smoke bomb. Invisibility potion soaked into smoke curtain. Unstable."
+    },
+    {
+      "id": "shrink_wand",
+      "name": "Shrink Wand",
+      "rarity": "rare",
+      "slot": "consumable",
+      "charges": 10,
+      "effect": "shrink",
+      "lore": "10 charges. Shrinks targets in battle."
+    },
+    {
+      "id": "satchel_bomb",
+      "name": "Madness Satchel Bomb",
+      "rarity": "rare",
+      "slot": "consumable",
+      "effect": "fire_aoe",
+      "damage": 35,
+      "lore": "Power of 3 sticks of hobgoblin dynamite. Destabilizes rapidly outside inventory."
+    },
+    {
+      "id": "pulse_pistol",
+      "name": "Mag 3040 Valtay Pulse Pistol",
+      "rarity": "legendary",
+      "slot": "weapon",
+      "stats": {
+        "dex": 3
+      },
+      "procs": [],
+      "lore": "Illegal alien tech. Using it = instant disqualification. Contraband."
+    }
+  ],
+  "armor": [
+    {
+      "id": "bigboi_boxers",
+      "name": "Enchanted BigBoi Boxers",
+      "rarity": "gold",
+      "slot": "armor",
+      "stats": {
+        "dex": 5,
+        "int": 5,
+        "con": 5
+      },
+      "procs": [
+        {
+          "trigger": "on_turn_start",
+          "chance": 0.03,
+          "effect": "protective_shell"
+        }
+      ],
+      "exclusive_to": "carl",
+      "lore": "Heart-covered boxers. Freeballing: +100% below-waist damage."
+    },
+    {
+      "id": "cloak_benevolent",
+      "name": "Cloak of the Benevolent Champion",
+      "rarity": "celestial",
+      "slot": "armor",
+      "stats": {
+        "con": 3,
+        "int": 2
+      },
+      "procs": [
+        {
+          "trigger": "on_equip",
+          "chance": 1,
+          "effect": "raise_lowest_stat"
+        }
+      ],
+      "lore": "Black/blue silky cloak. Flight, shields, slowly raises lowest stat."
+    },
+    {
+      "id": "battle_rattle",
+      "name": "Anarchist's Battle Rattle",
+      "rarity": "platinum",
+      "slot": "armor",
+      "stats": {
+        "str": 5,
+        "dex": 5,
+        "con": 5,
+        "int": 5
+      },
+      "patch_slots": 3,
+      "procs": [
+        {
+          "trigger": "on_throw",
+          "chance": 1,
+          "effect": "range_boost_50"
+        }
+      ],
+      "lore": "Sleeveless black canvas jacket. +1 all stats per patch."
+    },
+    {
+      "id": "scavenger_daughter",
+      "name": "Scavenger's Daughter Patch",
+      "rarity": "celestial",
+      "slot": "patch",
+      "stats": {
+        "dex": 3,
+        "str": 3
+      },
+      "skills": [
+        "climb",
+        "soul_reaper"
+      ],
+      "lore": "Back patch. Doubles all patch bonuses. Grants Soul Reaper."
+    },
+    {
+      "id": "trollskin_shirt",
+      "name": "Trollskin Shirt of Pummeling",
+      "rarity": "gold",
+      "slot": "armor",
+      "stats": {
+        "con": 10
+      },
+      "skills": [
+        "regeneration_7"
+      ],
+      "procs": [
+        {
+          "trigger": "on_damage_taken",
+          "chance": 1,
+          "effect": "negate_stun"
+        }
+      ],
+      "lore": "Negates Stun, Knockback, Disarm. +7 Regeneration."
+    },
+    {
+      "id": "nightgaunt_cloak",
+      "name": "Nightgaunt Cloak of Stoutness",
+      "rarity": "gold",
+      "slot": "armor",
+      "stats": {
+        "con": 3
+      },
+      "resistances": [
+        "poison",
+        "ice"
+      ],
+      "lore": "Black demon-wing cloak. Anti-piercing for all armor."
+    },
+    {
+      "id": "spiked_kneepads",
+      "name": "Spiked Kneepads of the Shade Gnoll",
+      "rarity": "gold",
+      "slot": "accessory",
+      "procs": [
+        {
+          "trigger": "on_damage_taken",
+          "chance": 1,
+          "effect": "reflect",
+          "value": 10
+        }
+      ],
+      "lore": "Retractable 8-inch spikes. 10% damage reflect."
+    },
+    {
+      "id": "get_back_shield",
+      "name": "Get Back Shield",
+      "rarity": "gold",
+      "slot": "armor",
+      "stats": {
+        "con": 10
+      },
+      "skills": [
+        "rooted_in_place"
+      ],
+      "exclusive_to": "katia",
+      "lore": "6ft riot shield. Upgrades Rush into Crowd Blast."
+    },
+    {
+      "id": "tiara_thousand_lights",
+      "name": "Tiara of a Thousand Lights",
+      "rarity": "celestial",
+      "slot": "accessory",
+      "stats": {
+        "int": 3,
+        "cha": 4
+      },
+      "exclusive_to": "donut",
+      "lore": "Opalescent crown. Can drain and store buffs from 99 other hats."
+    },
+    {
+      "id": "prism_goggles",
+      "name": "Prism Industries Goggles",
+      "rarity": "platinum",
+      "slot": "accessory",
+      "stats": {
+        "int": 10
+      },
+      "procs": [
+        {
+          "trigger": "on_cast_magic_missile",
+          "chance": 1,
+          "effect": "focus_laser"
+        }
+      ],
+      "exclusive_to": "donut",
+      "lore": "Oversized sunglasses. Focuses eye-lasers into multi-beam."
+    },
+    {
+      "id": "crown_sepsis",
+      "name": "Crown of the Sepsis Whore",
+      "rarity": "legendary",
+      "slot": "accessory",
+      "cursed": true,
+      "stats": {
+        "int": 5
+      },
+      "procs": [
+        {
+          "trigger": "on_hit",
+          "chance": 0.15,
+          "effect": "sepsis"
+        }
+      ],
+      "lore": "Unremovable jeweled tiara. 15% Sepsis on attacks. CURSED."
+    },
+    {
+      "id": "mongo_saddle",
+      "name": "Enchanted Mongoliensis Saddle",
+      "rarity": "gold",
+      "slot": "mount",
+      "stats": {
+        "con": 3
+      },
+      "procs": [
+        {
+          "trigger": "on_rider",
+          "chance": 1,
+          "effect": "spell_damage_15"
+        }
+      ],
+      "exclusive_to": "mongo",
+      "lore": "Blue/red tasseled saddle. +20% CON to mount, +15% spell damage to rider."
+    },
+    {
+      "id": "butterfly_charm",
+      "name": "Silver Butterfly Collar Charm",
+      "rarity": "gold",
+      "slot": "accessory",
+      "stats": {
+        "int": 5
+      },
+      "lore": "Silver butterfly on a ring. Jingles pleasantly."
+    },
+    {
+      "id": "water_ring",
+      "name": "Ring of Water Breathing",
+      "rarity": "rare",
+      "slot": "accessory",
+      "stats": {
+        "con": 5
+      },
+      "procs": [
+        {
+          "trigger": "on_equip",
+          "chance": 1,
+          "effect": "water_breathing"
+        }
+      ],
+      "lore": "Breathe underwater. Side effect: grow gills, -1 CHA."
+    },
+    {
+      "id": "quiet_slippers",
+      "name": "Quiet Slippers",
+      "rarity": "uncommon",
+      "slot": "accessory",
+      "stats": {
+        "dex": 5
+      },
+      "lore": "Silent movement footwear. Useless for barefoot builds."
+    },
+    {
+      "id": "gold_helmet",
+      "name": "Warrior's Gold Helmet of Resistance",
+      "rarity": "gold",
+      "slot": "armor",
+      "stats": {
+        "con": 10
+      },
+      "resistances": [
+        "magic"
+      ],
+      "lore": "Magical resistance. Only works while wielding a sword."
+    },
+    {
+      "id": "fuzzy_handcuffs",
+      "name": "Fuzzy Handcuffs",
+      "rarity": "rare",
+      "slot": "tool",
+      "effect": "restrain",
+      "lore": "Requires 200 STR to break. Vocal safe word to unlock."
+    }
+  ],
+  "scrolls_tomes": [
+    {
+      "id": "anarchist_cookbook",
+      "name": "Dungeon Anarchist's Cookbook",
+      "rarity": "celestial",
+      "slot": "accessory",
+      "type": "tome",
+      "effect": "unlock_recipes",
+      "lore": "Disguised recipe book. Erases itself if you tell anyone about it."
+    },
+    {
+      "id": "scroll_upgrade",
+      "name": "Scroll of Upgrade",
+      "rarity": "rare",
+      "slot": "consumable",
+      "type": "scroll",
+      "effect": "upgrade_random_equipped",
+      "lore": "20 min shelf life. Upgrades one random equipped item."
+    },
+    {
+      "id": "tome_wisp_armor",
+      "name": "Tome of Wisp Armor",
+      "rarity": "gold",
+      "slot": "consumable",
+      "type": "tome",
+      "effect": "learn_wisp_armor",
+      "lore": "Teaches Wisp Armor spell (5 mana, -75% magic damage, anti-mind-control)."
+    },
+    {
+      "id": "tome_magic_missile",
+      "name": "Tome of Magic Missile",
+      "rarity": "silver",
+      "slot": "consumable",
+      "type": "tome",
+      "effect": "learn_magic_missile",
+      "lore": "Teaches Magic Missile. Scales with mana invested."
+    },
+    {
+      "id": "tome_minion_army",
+      "name": "Tome of Minion Army",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "type": "tome",
+      "effect": "learn_minion_army",
+      "lore": "50 mana, 5 min cast. Turns % of enemies against their allies."
+    },
+    {
+      "id": "scroll_size_up",
+      "name": "Scroll of Size Up",
+      "rarity": "rare",
+      "slot": "consumable",
+      "type": "scroll",
+      "effect": "reveal_stats",
+      "lore": "Reveals exact stats/weaknesses of targeted enemy. 30s delay."
+    },
+    {
+      "id": "voodoo_book",
+      "name": "Filthy Crawler's Book of Voodoo",
+      "rarity": "epic",
+      "slot": "accessory",
+      "type": "tome",
+      "effect": "communication",
+      "lore": "Magical diary for private messaging between crawlers who've met."
+    },
+    {
+      "id": "scroll_community_pool",
+      "name": "Scroll of Community Pool",
+      "rarity": "epic",
+      "slot": "consumable",
+      "type": "scroll",
+      "effect": "reflect_spell",
+      "lore": "Transfers afflictions. Dangerous: can bounce back and forth."
+    },
+    {
+      "id": "tome_torch",
+      "name": "Tome of Torch",
+      "rarity": "common",
+      "slot": "consumable",
+      "type": "tome",
+      "effect": "learn_torch",
+      "lore": "Creates light that follows caster. Gets stronger with use."
+    },
+    {
+      "id": "scroll_hasten_poison",
+      "name": "Scroll of Hasten Poison",
+      "rarity": "rare",
+      "slot": "consumable",
+      "type": "scroll",
+      "effect": "hasten_poison",
+      "lore": "Rapidly accelerates poison effects in target."
+    },
+    {
+      "id": "tome_mute",
+      "name": "Tome of Mute",
+      "rarity": "epic",
+      "slot": "consumable",
+      "type": "tome",
+      "effect": "learn_mute",
+      "lore": "Prevents enemy from casting spells."
+    },
+    {
+      "id": "tome_hanzo",
+      "name": "Tome of Hanzo",
+      "rarity": "epic",
+      "slot": "consumable",
+      "type": "tome",
+      "effect": "learn_hanzo",
+      "lore": "Aggro-manipulation: draws mobs closer to caster."
+    },
+    {
+      "id": "scroll_cracker_jack",
+      "name": "Scroll of Cracker Jack",
+      "rarity": "rare",
+      "slot": "consumable",
+      "type": "scroll",
+      "effect": "unlock_restricted",
+      "lore": "Unlocks restricted/benefactor items locked by system."
+    },
+    {
+      "id": "scroll_fix",
+      "name": "Scroll of Fix",
+      "rarity": "rare",
+      "slot": "consumable",
+      "type": "scroll",
+      "effect": "repair_structure",
+      "lore": "Instantly repairs breached structures."
+    },
+    {
+      "id": "tome_war_crime",
+      "name": "Tome of War Crime",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "type": "tome",
+      "effect": "learn_atrocity",
+      "lore": "Atrocity-class spell. Classified as an act of fiendish cruelty."
+    },
+    {
+      "id": "tome_personal_space",
+      "name": "Tome of I Need My Personal Space",
+      "rarity": "platinum",
+      "slot": "consumable",
+      "type": "tome",
+      "effect": "learn_knockback_all",
+      "lore": "Knocks EVERYONE back violently. Including allies."
+    }
+  ],
+  "potions": [
+    {
+      "id": "mordecai_brew",
+      "name": "Mordecai's Special Brew",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "effect": "invincible_30s",
+      "sideeffect": "potion_sickness_10h",
+      "max_uses": 2,
+      "lore": "Healing + Troll's Second Wind = 30s immortality. Only works twice ever."
+    },
+    {
+      "id": "healing_potion",
+      "name": "Healing Potion",
+      "rarity": "common",
+      "slot": "consumable",
+      "effect": "heal",
+      "value": 30,
+      "lore": "Red liquid. Restores HP rapidly."
+    },
+    {
+      "id": "mana_potion",
+      "name": "Mana Potion",
+      "rarity": "common",
+      "slot": "consumable",
+      "effect": "mana",
+      "value": 3,
+      "lore": "Blue liquid. Restores mana."
+    },
+    {
+      "id": "good_mana_potion",
+      "name": "Good Mana Refill",
+      "rarity": "uncommon",
+      "slot": "consumable",
+      "effect": "mana",
+      "value": 5,
+      "lore": "Better mana potion. Restores over 2 minutes."
+    },
+    {
+      "id": "revup_moonshine",
+      "name": "Rev-Up Moonshine",
+      "rarity": "rare",
+      "slot": "consumable",
+      "effect": "gamble_stat",
+      "lore": "180-proof. 50% blind, 5% death, 45% +2 permanent random stat."
+    },
+    {
+      "id": "invisibility_potion",
+      "name": "Invisibility Potion",
+      "rarity": "rare",
+      "slot": "consumable",
+      "effect": "hidden",
+      "turns": 2,
+      "lore": "Renders invisible. Duration = INT*2 seconds."
+    },
+    {
+      "id": "conscription_potion",
+      "name": "Hell-Kissed Potion of Conscription",
+      "rarity": "celestial",
+      "slot": "consumable",
+      "effect": "steal_enemy",
+      "lore": "Forces unaffiliated entity to join your faction. Including gods."
+    },
+    {
+      "id": "dolores_potion",
+      "name": "Dolores Doesn't Splat",
+      "rarity": "uncommon",
+      "slot": "consumable",
+      "effect": "survive_lethal",
+      "lore": "Survive any lethal fall. Vaporizes landing surface."
+    },
+    {
+      "id": "celestial_skill_potion",
+      "name": "Celestial Skill Potion of the Prince of Woe",
+      "rarity": "celestial",
+      "slot": "consumable",
+      "effect": "random_skill_10_15",
+      "lore": "Black bubbling skull bottle. Grants random L10-15 combat skill."
+    },
+    {
+      "id": "pawna_tears",
+      "name": "Pawna's Tears",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "effect": "permanent_skill_5",
+      "lore": "Smoking ornate perfume bottle. +5 to any chosen spell or skill."
+    },
+    {
+      "id": "cosmic_buff",
+      "name": "Cosmic Buff Potion",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "effect": "permanent_stat_10",
+      "lore": "Pink frothy. +10 to random base stat permanently. No limit."
+    },
+    {
+      "id": "constitution_buff",
+      "name": "Superb Constitution Buff",
+      "rarity": "epic",
+      "slot": "consumable",
+      "effect": "permanent_con_1_4",
+      "max_uses": 2,
+      "lore": "Orange bubbly. +1 to +4 CON permanently. Only 2 per crawler."
+    },
+    {
+      "id": "potion_bloodlust",
+      "name": "Potion of Bloodlust",
+      "rarity": "epic",
+      "slot": "consumable",
+      "effect": "double_str_extra_action",
+      "lore": "Doubles STR, grants extra action. Berserker fury."
+    },
+    {
+      "id": "level_up_potion",
+      "name": "Level-Up Potion",
+      "rarity": "rare",
+      "slot": "consumable",
+      "effect": "permanent_stats_small",
+      "lore": "+10 STR/INT, +20 CON permanently."
+    },
+    {
+      "id": "feather_fall",
+      "name": "Potion of Feather Fall",
+      "rarity": "rare",
+      "slot": "consumable",
+      "effect": "negate_fall",
+      "lore": "Negates falling damage. Drift gently to ground."
+    },
+    {
+      "id": "find_crawler_potion",
+      "name": "Minor Find Crawler Skill Potion",
+      "rarity": "platinum",
+      "slot": "consumable",
+      "effect": "learn_track",
+      "lore": "Grants L5 Find Crawler skill. Tastes like strawberry juice."
+    },
+    {
+      "id": "fragmenting_potion_ball",
+      "name": "Fragmenting Potion Ball",
+      "rarity": "rare",
+      "slot": "consumable",
+      "effect": "splash_potion",
+      "lore": "Rubber ball holds a potion. Throw to splash effects on enemy."
+    },
+    {
+      "id": "hair_restoration",
+      "name": "Rev-Up Magic Hair Restoration",
+      "rarity": "common",
+      "slot": "consumable",
+      "effect": "cosmetic",
+      "lore": "Restores missing hair. Purely cosmetic."
+    }
+  ],
+  "materials": [
+    {
+      "id": "toraline_yam",
+      "name": "Toraline Root Vegetable",
+      "rarity": "rare",
+      "slot": "material",
+      "lore": "Grows in lava dirt. Used for Phase potions, magical ink, and spell theft."
+    },
+    {
+      "id": "moonshine_jug",
+      "name": "Rev-Up Moonshine Jug",
+      "rarity": "uncommon",
+      "slot": "material",
+      "lore": "180-proof accelerant. Base for Jug O'Boom and immunity smoothies."
+    },
+    {
+      "id": "hobgoblin_pus",
+      "name": "Hobgoblin Pus",
+      "rarity": "rare",
+      "slot": "material",
+      "lore": "Moldable C4-like explosive. Needs detonator trigger."
+    },
+    {
+      "id": "nitro_sludge",
+      "name": "Nitro Sludge",
+      "rarity": "rare",
+      "slot": "material",
+      "lore": "Ramen-like blocks. Inert alone, massive explosion amplifier when heated."
+    },
+    {
+      "id": "soul_crystal",
+      "name": "Soul Crystal",
+      "rarity": "epic",
+      "slot": "material",
+      "lore": "Glowing gem from Scolopendra. Power source. Overloaded = city-leveling bomb."
+    },
+    {
+      "id": "proximity_trigger",
+      "name": "Proximity Trigger",
+      "rarity": "rare",
+      "slot": "material",
+      "lore": "Dime-sized black box. Adds activation conditions to traps."
+    },
+    {
+      "id": "dwarven_battery",
+      "name": "Dwarven Battery",
+      "rarity": "uncommon",
+      "slot": "material",
+      "lore": "Brick-sized metal block. Powers vehicles and automatons."
+    },
+    {
+      "id": "thorn_sap_tips",
+      "name": "Thorn Sap Tips",
+      "rarity": "rare",
+      "slot": "material",
+      "lore": "Rare plant cuttings. Used for Charm Animal potions."
+    },
+    {
+      "id": "vile_dill",
+      "name": "Vile Dill",
+      "rarity": "uncommon",
+      "slot": "material",
+      "lore": "Herb required for Liquid Therapy madness-cure potions."
+    },
+    {
+      "id": "platinum_stone",
+      "name": "Platinum Sharpening Stone",
+      "rarity": "platinum",
+      "slot": "material",
+      "lore": "Instant permanent weapon upgrade. Short shelf life — use immediately."
+    }
+  ],
+  "tools": [
+    {
+      "id": "pedicure_kit",
+      "name": "Pedicure Kit of the Sylph",
+      "rarity": "epic",
+      "slot": "accessory",
+      "stats": {
+        "dex": 5
+      },
+      "procs": [
+        {
+          "trigger": "on_barefoot",
+          "chance": 1,
+          "effect": "foot_buffs"
+        }
+      ],
+      "exclusive_to": "carl",
+      "lore": "12 foot-care tools. +15% barefoot damage, unbreakable feet, trap delay."
+    },
+    {
+      "id": "goo_inator",
+      "name": "Goo-Inator 3000",
+      "rarity": "silver",
+      "slot": "tool",
+      "effect": "shape_metal",
+      "lore": "Silver lollipop tool. Shapes metal like dough at a workbench."
+    },
+    {
+      "id": "sheol_case",
+      "name": "Sheol Glass Reaper Case",
+      "rarity": "epic",
+      "slot": "tool",
+      "effect": "contain_volatile",
+      "lore": "Protective case forged on floor 15. Safely houses dangerous items."
+    },
+    {
+      "id": "coffee_author_kit",
+      "name": "Coffee Shop Author Kit",
+      "rarity": "gold",
+      "slot": "tool",
+      "effect": "mental_scratchpad",
+      "lore": "Paper + quill + ink. Written content syncs to mental interface."
+    },
+    {
+      "id": "valtay_enhancer",
+      "name": "Valtay Neural Enhancer #544",
+      "rarity": "uncommon",
+      "slot": "consumable",
+      "effect": "permanent_vision_upgrade",
+      "lore": "Blue/yellow pill. Permanently adds HUD elements (portals, altimeter)."
+    },
+    {
+      "id": "upgrade_coupon",
+      "name": "Personal Space Upgrade Coupon",
+      "rarity": "epic",
+      "slot": "tool",
+      "effect": "upgrade_base",
+      "lore": "Voucher worth 250k gold for guildhall upgrades."
+    },
+    {
+      "id": "mercenary_coupon",
+      "name": "Mercenary Coupon",
+      "rarity": "platinum",
+      "slot": "tool",
+      "effect": "hire_merc",
+      "lore": "100k gold of mercenary services at Meat Shields."
+    },
+    {
+      "id": "pvp_coupon",
+      "name": "PVP Coupon",
+      "rarity": "gold",
+      "slot": "tool",
+      "effect": "bounty_target",
+      "lore": "Assassinate named crawler for massive reward boxes."
+    },
+    {
+      "id": "loot_punch_card",
+      "name": "Loot Punch Card",
+      "rarity": "gold",
+      "slot": "tool",
+      "effect": "track_celestial",
+      "lore": "5 spots. Fill card by picking up Celestial items. Special prize when complete."
+    }
+  ],
+  "plushies": [
+    {
+      "id": "kimaris_figure",
+      "name": "Stuffed Kimaris Figure",
+      "rarity": "celestial",
+      "slot": "consumable",
+      "effect": "summon_demon_permanent",
+      "lore": "Collectible bean bag. True summons demon Kimaris for entire floor."
+    },
+    {
+      "id": "grulke_infantry",
+      "name": "Stuffed Grulke Infantry",
+      "rarity": "common",
+      "slot": "consumable",
+      "effect": "summon_temp",
+      "duration": 1,
+      "lore": "Brown frog in spiked helmet. 15-30 second summon."
+    },
+    {
+      "id": "eclipse_pyxie",
+      "name": "Stuffed Eclipse Pyxie",
+      "rarity": "uncommon",
+      "slot": "consumable",
+      "effect": "summon_swarm",
+      "duration": 2,
+      "lore": "Fat guinea pig with bat wings. Becomes aggressive flying swarm."
+    },
+    {
+      "id": "slate_butterfly",
+      "name": "Stuffed Slate Butterfly",
+      "rarity": "common",
+      "slot": "consumable",
+      "effect": "summon_temp",
+      "duration": 1,
+      "lore": "Grey moth toy. Becomes flying creature."
+    },
+    {
+      "id": "back_alley_mouser",
+      "name": "Stuffed Back Alley Mouser",
+      "rarity": "rare",
+      "slot": "consumable",
+      "effect": "summon_decoy",
+      "duration": 3,
+      "lore": "Cat plush. Needs Tame spell to use as decoy instead of attacker."
+    },
+    {
+      "id": "robot_donut",
+      "name": "Veriluxx RealPet Donut",
+      "rarity": "uncommon",
+      "slot": "consumable",
+      "effect": "explode_on_break",
+      "lore": "Off-color robot cat. Spouts Garfield quotes. Explodes if broken."
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "party_planner",
+      "name": "Party Planner Airship",
+      "rarity": "celestial",
+      "slot": "vehicle",
+      "stats": {
+        "dex": 3
+      },
+      "procs": [
+        {
+          "trigger": "on_bomb_drop",
+          "chance": 1,
+          "effect": "yield_50"
+        }
+      ],
+      "exclusive_to": "louis",
+      "lore": "Stealth tilt-rotor bomber. +50% bomb yield. Requires soul crystal."
+    },
+    {
+      "id": "royal_chariot",
+      "name": "Royal Chariot",
+      "rarity": "epic",
+      "slot": "vehicle",
+      "stats": {
+        "dex": 2
+      },
+      "lore": "Rickety ATV with snowmobile track. Fast across sand. Splits for inventory."
+    },
+    {
+      "id": "mongo_saddle_mount",
+      "name": "Mongo + Saddle",
+      "rarity": "gold",
+      "slot": "mount",
+      "stats": {
+        "con": 3,
+        "str": 10
+      },
+      "lore": "Royal steed. +20% CON mount, +15% spell damage rider."
+    },
+    {
+      "id": "simoom_rhino",
+      "name": "Simoom the Battle Rhino",
+      "rarity": "epic",
+      "slot": "mount",
+      "stats": {
+        "con": 4
+      },
+      "procs": [
+        {
+          "trigger": "on_rider",
+          "chance": 1,
+          "effect": "shield_howdah"
+        }
+      ],
+      "exclusive_to": "ferdinand",
+      "lore": "Albino rhino L75. Ornate howdah with magic shield curtains."
+    },
+    {
+      "id": "gonk_yak",
+      "name": "Gonk the Swamp Yak",
+      "rarity": "epic",
+      "slot": "mount",
+      "stats": {
+        "str": 3,
+        "con": 2
+      },
+      "lore": "Terrifying swamp yak. Heavy mount for lances and heavy weapons."
+    }
+  ],
+  "reward_boxes": [
+    {
+      "id": "benefactor_box",
+      "name": "Benefactor Box",
+      "tier_range": [
+        "bronze",
+        "celestial"
+      ],
+      "source": "sponsor_favor",
+      "lore": "From corporate sponsors. Often contains alien tech unavailable in dungeon."
+    },
+    {
+      "id": "fan_box",
+      "name": "Fan Box",
+      "tier_range": [
+        "bronze",
+        "celestial"
+      ],
+      "source": "viewer_milestones",
+      "lore": "Contents voted on by audience. 30hr voting window. Higher tier = less trolling."
+    },
+    {
+      "id": "boss_box",
+      "name": "Boss Box",
+      "tier_range": [
+        "bronze",
+        "celestial"
+      ],
+      "source": "boss_kill",
+      "lore": "Scales with boss tier. Neighborhood=Bronze, Floor Boss=Celestial."
+    },
+    {
+      "id": "quest_box",
+      "name": "Quest Box",
+      "tier_range": [
+        "bronze",
+        "celestial"
+      ],
+      "source": "quest_complete",
+      "lore": "Can upgrade via achievements (Hadji, Bandit). Double-upgrade = Celestial."
+    },
+    {
+      "id": "adventurer_box",
+      "name": "Adventurer Box",
+      "tier_range": [
+        "bronze",
+        "gold"
+      ],
+      "source": "leveling",
+      "lore": "Most common. Basic potions, torches, biscuits, unenchanted gear."
+    },
+    {
+      "id": "pet_box",
+      "name": "Pet Box",
+      "tier_range": [
+        "bronze",
+        "legendary"
+      ],
+      "source": "pet_actions",
+      "lore": "Pet biscuits, Heal Critter scrolls, pet store coupons."
+    },
+    {
+      "id": "spicy_box",
+      "name": "Spicy Box",
+      "tier_range": [
+        "gold",
+        "legendary"
+      ],
+      "source": "foot_kills",
+      "lore": "AI's foot fetish. Toe rings, foot lotions, patches. Disturbing."
+    },
+    {
+      "id": "assholes_box",
+      "name": "Asshole's Box",
+      "tier_range": [
+        "bronze",
+        "gold"
+      ],
+      "source": "being_a_jerk",
+      "lore": "Prank drops. Mace tubes, ex photos, useless items."
+    },
+    {
+      "id": "heavy_metal_box",
+      "name": "Celestial Heavy Metal Box",
+      "tier_range": [
+        "celestial"
+      ],
+      "source": "special_achievement",
+      "lore": "Drum kit with pyrotechnics. Demon plays speed metal solo before it explodes."
+    },
+    {
+      "id": "lucky_bitch_box",
+      "name": "Legendary Lucky Bitch Box",
+      "tier_range": [
+        "legendary"
+      ],
+      "source": "miraculous_survival",
+      "lore": "For surviving impossible odds through sheer luck."
+    },
+    {
+      "id": "gobble_box",
+      "name": "Gold Gobble Box",
+      "tier_range": [
+        "gold"
+      ],
+      "source": "turkey_kill",
+      "lore": "Turkey-shaped. Contains deep fryer and Facebook recipes."
+    },
+    {
+      "id": "survivor_box",
+      "name": "Bronze Survivor Box",
+      "tier_range": [
+        "bronze"
+      ],
+      "source": "low_hp_win",
+      "lore": "For having <10% HP when boss died. Contains heal scrolls."
+    }
+  ],
+  "food_drugs": [
+    {
+      "id": "enhanced_pet_biscuit",
+      "name": "Enhanced Pet Biscuit",
+      "rarity": "legendary",
+      "slot": "consumable",
+      "effect": "evolve_pet",
+      "lore": "Grants animal intelligence + Crawler ID. 50% good, 50% neutral/bad."
+    },
+    {
+      "id": "blitz_stick",
+      "name": "Blitz Stick",
+      "rarity": "rare",
+      "slot": "consumable",
+      "effect": "int_5_temp",
+      "addictive": true,
+      "lore": "Licorice stick. +5 INT. Smoking: 15% chance +1 permanent INT. Addictive."
+    },
+    {
+      "id": "mana_toast",
+      "name": "Mana Toast",
+      "rarity": "common",
+      "slot": "consumable",
+      "effect": "mana",
+      "value": 2,
+      "lore": "Burned triangle of toast. Refills mana. That's it. Fuck you."
+    },
+    {
+      "id": "experience_cookie",
+      "name": "Experience Cookie",
+      "rarity": "common",
+      "slot": "consumable",
+      "effect": "xp_10",
+      "lore": "Chocolate chip cookie. +10 XP. One per crawler per day."
+    },
+    {
+      "id": "pet_biscuit",
+      "name": "Pet Biscuit",
+      "rarity": "common",
+      "slot": "consumable",
+      "effect": "feed_pet",
+      "lore": "Dry treat. Feeds pet for a full day."
+    },
+    {
+      "id": "glory_bound",
+      "name": "Glory Bound",
+      "rarity": "epic",
+      "slot": "consumable",
+      "effect": "relive_memory",
+      "addictive": true,
+      "lore": "Coma-inducing drug. Relive a memory fully. Brain damage. Kills eventually."
+    },
+    {
+      "id": "warka",
+      "name": "Warka",
+      "rarity": "common",
+      "slot": "consumable",
+      "effect": "drunk",
+      "lore": "Dungeon beer. From the safe room soda machine."
+    },
+    {
+      "id": "skyr_jam",
+      "name": "Skyr and Jam",
+      "rarity": "common",
+      "slot": "consumable",
+      "effect": "food_buff",
+      "lore": "Icelandic dish. Tastes like bad sour cream mixed with Jolly Ranchers."
+    }
+  ]
+}
